@@ -1,0 +1,65 @@
+    .smoll { /*opacity: 0.3;*/
+        height: 50px;
+        width: 100%px;
+        background-color: rgba(2, 65, 94,.5);
+        /*transform: translate(30px, 20px) rotate(20deg);*/
+        animation-iteration-count: infinite;
+        transition: all 0.4s;
+        box-sizing: border-box;
+        padding: 1px;
+        font-size: xx-large;
+        color: white;
+    position: relavite;}
+/*        .smoll:hover {
+            transition: width 0.4s;
+            padding: 0px;
+            font-size: 300%;
+        }*/
+    body {
+                margin: 0%;
+        padding: 0%;
+    }
+    .header {
+        font-size: 250%; /* Размер шрифта в процентах */
+       font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-image: url(https://dg.imgix.net/why-doesn-t-my-church-share-the-gospel-ai95qccl-en/landscape/why-doesn-t-my-church-share-the-gospel-ai95qccl-81cb92fa674fac719e1cb6477da71b52.jpg);
+        object-fit:cover;
+        background-repeat: no-repeat;
+    }
+    .logo {
+        font-size: xx-large;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        margin-left: 5%;
+        margin-top: 0.3%;
+        
+    }
+    .logo a {
+color: white;
+text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    }
+    .buttons {
+        font-family: 'Montserrat', sans-serif;
+        /*text-align: right;*/
+        float: right;
+        margin-right: 3%;
+          -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  font-weight: normal;
+    }
+    .buttons:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+    .space {
+        height: 550px;
+        width: 100%;
+        background-image: url(https://cdn.wallpapersafari.com/86/75/Db7K4M.jpg);
+        background-size: auto;
+        background-position:center center;
+        background-size: cover;
+    }

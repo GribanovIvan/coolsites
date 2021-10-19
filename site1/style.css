@@ -1,0 +1,90 @@
+/* .main {
+    width: 50%;
+ background-color: rgb(32, 32, 243);
+
+} */
+/* .main:hover {width: 100%;} */
+.smoll { /*opacity: 0.3;*/
+    height: 22%;
+    width: 40%;
+    background-color: rgb(19,26,54);
+    /*transform: translate(30px, 20px) rotate(20deg);*/
+    animation-iteration-count: infinite;
+    border-radius: 40px 40px 40px;
+    transition: all 0.4s;
+    box-sizing: border-box;
+    padding-left: 30px;
+    font-size: x-large;
+    line-height: 2;
+    color: white;
+position: absolute;}
+    .smoll:hover {
+        width: 80%;
+        transition: width 0.4s;
+        /* padding: 0px; */
+    }
+    li {
+        margin-left: auto;
+    }
+    li:hover {
+        font-size: xx-large;
+        transition: width 250ms;
+        
+    }
+h1 {
+    font-size: 250%; /* Размер шрифта в процентах */
+    font-family: DejaVu Sans Mono, monospace;
+    text-align: center;
+}
+.asdfg {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.whe {
+    border-radius: 20px 20px 20px;
+    height: 20%px;
+    width: 100%;
+    background-color: rgb(19,26,54);
+    box-sizing: border-box;
+    padding: 50px;
+}
+/* .wha:hover {
+    transform: skewY(-20deg);
+    transition: all 0.5s
+} */
+.wha {
+    /* border-radius: 20px 20px 20px; */
+    width: 8%;
+    padding-bottom: 8%;
+    position: relative;
+    background-color: rgb(200,200,200);
+    box-sizing: border-box;
+    transition: all 0.5s;
+    display: inline-block;
+    margin-left: 25%;
+    position: relative;
+    animation: mymove 7.5s infinite;
+}
+@keyframes mymove {
+    0% {transform: skewX(-20deg);}
+    50% {transform: skewX(20deg);}
+    100% {transform: skewX(-20deg);}
+}
+.space {
+    height: 550px;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/86/75/Db7K4M.jpg);
+    background-size: auto;
+    background-position:center center;
+    background-size: cover;
+}
+body {
+    background-color: rgb(200,200,200);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 73%;
+}
