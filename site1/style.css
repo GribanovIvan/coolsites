@@ -5,7 +5,7 @@
 } */
 /* .main:hover {width: 100%;} */
 .smoll { /*opacity: 0.3;*/
-    height: 22%;
+    height: 200px;
     width: 40%;
     background-color: rgb(19,26,54);
     /*transform: translate(30px, 20px) rotate(20deg);*/
@@ -87,4 +87,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 73%;
+}
+.txo {
+    background-image: url(300x181.jpg);
+    width: 30%;
+    padding-bottom: 20%;
+    background-size: cover;
 }
