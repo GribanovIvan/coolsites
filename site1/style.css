@@ -63,7 +63,6 @@ h1 {
     transition: all 0.5s;
     display: inline-block;
     margin-left: 25%;
-    position: relative;
     animation: mymove 7.5s infinite;
 }
 @keyframes mymove {
@@ -89,8 +88,16 @@ body {
     width: 73%;
 }
 .txo {
-    background-image: url(300x181.jpg);
     width: 30%;
-    padding-bottom: 20%;
+    padding-bottom: 18%;
     background-size: cover;
+    background-position: center;
+    margin-left: 3%;
+    display: inline-block;
+    text-align: center;
 }
+.crutch {
+    width: 30%;
+    margin-left: 3%;
+}
+/* mkdir png;for f in *.dds; do convert.exe "$f" png/$(echo $f | cut -d. -f1).png;done */
