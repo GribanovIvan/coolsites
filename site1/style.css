@@ -103,4 +103,7 @@ body {
     display: inline-block;
     font-size: x-large;
 }
+.row {
+    
+}
 /* mkdir png;for f in *.dds; do convert.exe "$f" png/$(echo $f | cut -d. -f1).png;done */
