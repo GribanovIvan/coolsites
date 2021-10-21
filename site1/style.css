@@ -118,3 +118,11 @@ body {
     font-size: x-large;
 }
 /* mkdir png;for f in *.dds; do convert.exe "$f" png/$(echo $f | cut -d. -f1).png;done */
+@media screen and (max-width: 900px) {
+    .text {
+        margin-left: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 175%;
+        font-size: x-large;
+    }
+  }
