@@ -1,7 +1,7 @@
     .smoll { /*opacity: 0.3;*/
         height: 50px;
         width: 100%px;
-        background-color: rgba(2, 65, 94,.5);
+        /*background-color: rgba(2, 65, 94,.5);*/
         /*transform: translate(30px, 20px) rotate(20deg);*/
         animation-iteration-count: infinite;
         transition: all 0.4s;
@@ -9,7 +9,8 @@
         padding: 1px;
         font-size: xx-large;
         color: white;
-    position: relavite;}
+text-align: center;
+}
 /*        .smoll:hover {
             transition: width 0.4s;
             padding: 0px;
@@ -18,22 +19,33 @@
     body {
                 margin: 0%;
         padding: 0%;
+        font-family: 'Montserrat', sans-serif;
+
+   color: white;
     }
     .header {
         font-size: 250%; /* Размер шрифта в процентах */
-       font-family: 'Montserrat', sans-serif;
+       
         text-align: center;
         width: 100%;
         height: 100vh;
         background-position: center;
-        background-image: url(https://dg.imgix.net/why-doesn-t-my-church-share-the-gospel-ai95qccl-en/landscape/why-doesn-t-my-church-share-the-gospel-ai95qccl-81cb92fa674fac719e1cb6477da71b52.jpg);
+        background-color: rgb(199, 56, 52);
+        background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(https://dg.imgix.net/why-doesn-t-my-church-share-the-gospel-ai95qccl-en/landscape/why-doesn-t-my-church-share-the-gospel-ai95qccl-81cb92fa674fac719e1cb6477da71b52.jpg);
+        justify-content: center;
         object-fit:cover;
         background-repeat: no-repeat;
     }
+
+    .header p {
+        position: relative;
+   margin-top: 20%;
+   font-size: 2em;
+}
     .logo {
         font-size: xx-large;
         font-weight: bold;
-        font-family: 'Montserrat', sans-serif;
+        
         text-align: left;
         margin-left: 5%;
         margin-top: 0.3%;
@@ -52,8 +64,48 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
   transition: all 150ms ease-in-out;
   font-weight: normal;
     }
+        .button {
+        font-family: 'Montserrat', sans-serif;
+        /*text-align: right;*/
+        float: right;
+        margin-right: 3%;
+          -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  font-weight: normal;
+    border: 2px solid #FFF;
+    border-radius: 3px; /* Радиус скругления */
+      position: absolute;
+  margin: auto;
+  top: 60%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 70px;
+  align-items: center;
+    }
+    .button:hover {
+        background-color: white;
+        color: rgb(199, 56, 52);
+    }
+    .button a {
+color: white;
+  text-decoration: none;
+  vertical-align:middle;
+    }
+        .button:hover a {
+color: rgb(199, 56, 52);
+ padding: 20px 13px 25px;      /*  сверху отступ 10px       */
+                             /*  слева и справа отступ 3% */
+                             /*  снизу отступ 20px        */
+
+    }
     .buttons:hover {
   box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+.down {
+    font-size: 1em;
+    margin-top: -2%;
 }
     .space {
         height: 550px;
@@ -63,3 +115,16 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
         background-position:center center;
         background-size: cover;
     }
+.center-div
+{
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
