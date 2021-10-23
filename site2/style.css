@@ -11,6 +11,23 @@
         color: white;
 text-align: center;
 }
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_aZA7g4.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Montserrat-bold';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype');
+  }
+  
+  
 /*        .smoll:hover {
             transition: width 0.4s;
             padding: 0px;
@@ -20,6 +37,7 @@ text-align: center;
                 margin: 0%;
         padding: 0%;
         font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
 
    color: white;
     }
@@ -56,7 +74,6 @@ color: white;
 text-decoration: none; /* Отменяем подчеркивание у ссылки */
     }
     .buttons {
-        font-family: 'Montserrat', sans-serif;
         /*text-align: right;*/
         float: right;
         margin-right: 3%;
@@ -65,7 +82,6 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
   font-weight: normal;
     }
         .button {
-        font-family: 'Montserrat', sans-serif;
         /*text-align: right;*/
         float: right;
         margin-right: 3%;
@@ -107,6 +123,31 @@ color: rgb(199, 56, 52);
     font-size: 1em;
     margin-top: -2%;
 }
+    .logos {
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    color: gray;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat-bold';
+    margin-top: 10%;
+    }
+    .logos p {
+        font-weight: bold;
+        font-size: xx-large;
+    }
+    .palka {
+        width: 4.5%;
+        height: 5px;
+        background-color:gray;
+        border-radius: 3px;
+        margin-left: 47.75%;
+    }
+    .mad {
+        margin-top: 2%;
+        font-size: x-large;
+    }
     .space {
         height: 550px;
         width: 100%;
@@ -115,16 +156,3 @@ color: rgb(199, 56, 52);
         background-position:center center;
         background-size: cover;
     }
-.center-div
-{
-  position: absolute;
-  margin: auto;
-  top: 50%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100px;
-  height: 100px;
-  background-color: #ccc;
-  border-radius: 3px;
-}
