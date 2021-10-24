@@ -26,7 +26,8 @@
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype');
   }
-  
+  /* github ignores, thx
+   */
 
     body {
         margin: 0%;
@@ -59,6 +60,7 @@
         text-align: left;
         margin-left: 5%;
         margin-top: 0.3%;
+        font-weight: 200;
     }
     .logo a {
 color: white;
@@ -198,7 +200,7 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
             color:rgb(199, 56, 52);
             transition: all 250ms ease-in-out;
     }
-    .space h1 {
+    .space h {
         margin-top: 4%;
         font-size:x-large;
         font-family: 'Montserrat'
