@@ -149,23 +149,30 @@ color: rgb(199, 56, 52);
         font-size: x-large;
     }
     .space {
-        height: 550px;
+        position: absolute;
+        height: 50%;
         width: 100%;
-        background-image: url(https://cdn.wallpapersafari.com/86/75/Db7K4M.jpg);
-        background-size: auto;
-        background-position:center center;
-        background-size: cover;
+        background-color: rgb(199, 56, 52);
+        text-align: center;
+        align-items: center;
     }
     .container {
         width: 28%;
-        background-color: green;
-        height: 40%;
+        height: 50%;
         margin-left: 4%;
         margin-top: 5%;
         float:inline-start;
-        font-size: 600%;
         align-items: center;
         color:rgb(199, 56, 52);
+    }
+    .container b {
+        font-size: x-large;
+        color: gray;
+        font-weight: bold;
+    }
+    .container h {
+        font-size: x-large;
+        color: gray;
     }
     .circle {
         width: 150px;
@@ -175,12 +182,12 @@ color: rgb(199, 56, 52);
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        float:inline-start;
     }
     .circle:hover {
         background-color: rgb(199, 56, 52);
             color:white;
             transition: all 250ms ease-in-out;
     }
-    .far {
-        font-size: xxxx-large;
-    }
+    /* .far {
+    } */
