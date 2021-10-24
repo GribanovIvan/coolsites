@@ -59,7 +59,6 @@
         text-align: left;
         margin-left: 5%;
         margin-top: 0.3%;
-        font-family: 'Montserrat'
     }
     .logo a {
 color: white;
@@ -199,7 +198,7 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
             color:rgb(199, 56, 52);
             transition: all 250ms ease-in-out;
     }
-    h1 {
+    .space h1 {
         margin-top: 4%;
         font-size:x-large;
         font-family: 'Montserrat'
