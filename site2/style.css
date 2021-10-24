@@ -203,5 +203,6 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
     .space h {
         margin-top: 4%;
         font-size:x-large;
-        font-family: 'Montserrat'
+        font-family: 'Montserrat';
+        display:block
     }
