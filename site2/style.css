@@ -205,3 +205,8 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
         font-family: 'Montserrat';
         display:block
     }
+    @media screen and (max-width: 992px) {
+        body {
+          background-color: blue;
+        }
+      }
