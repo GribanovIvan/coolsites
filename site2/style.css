@@ -208,7 +208,7 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
     }
     @media screen and (max-width: 992px) {
         .space {
-            height: 15%;
+            height: 20%;
             margin-top: 150%;
         }
         .container {
