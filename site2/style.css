@@ -174,6 +174,7 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        font-size: 600%;
     }
     .circle:hover {
         background-color: rgb(199, 56, 52);
@@ -206,7 +207,43 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
         display:block
     }
     @media screen and (max-width: 992px) {
-        body {
-          background-color: blue;
+        .space {
+            height: 15%;
+            margin-top: 150%;
         }
-      }
+        .container {
+            width: 100%;
+            height: 60%;
+            margin-left: 0%;
+            margin-top: 0%;
+            float:unset;
+            /* align-items: center
+            color:rgb(199, 56, 52); */
+        }
+        .circle {
+            width: 450px;
+            height: 450px;
+            /*
+            border: 2px solid gray;*/
+            text-align: center;
+            font-size: 1800%;
+            margin-top: 3%;
+        }
+            .container b {
+                font-size: 400%;
+            }
+            .container h {
+                font-size: 300%;
+            }
+            .logos p {
+                font-size: 500%;
+            }
+            .palka {
+                width: 45%;
+                height: 6px;
+                background-color:gray;
+                border-radius: 3px;
+                margin-left: 27.5%;
+                margin-top: -7%;
+            }
+        }
