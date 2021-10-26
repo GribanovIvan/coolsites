@@ -51,7 +51,7 @@
 
     .header p {
         position: relative;
-   margin-top: 20%;
+   margin-top: 20vh;
    font-size: 2em;
 }
     .logo {
@@ -206,7 +206,7 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
         font-family: 'Montserrat';
         display:block
     }
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 767px) {
         .space {
             height: 20%;
             margin-top: 150%;
