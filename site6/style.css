@@ -45,3 +45,12 @@ body {
 	border-left: 2.5vh solid transparent;
     float:right
 }
+.pencil {
+    position: absolute;
+    border-radius: 10vh 10vh 0 0;
+    bottom: 0;
+    width: 4vh;
+    height: 74vh;
+    background-color: rgb(5, 150, 150);
+    box-shadow: inset -5px 2px 3px 0px rgb(150, 200, 200), inset 4px 0px 3px 0px rgb(150, 200, 200);
+}
