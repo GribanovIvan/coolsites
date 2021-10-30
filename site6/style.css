@@ -53,4 +53,37 @@ body {
     height: 74vh;
     background-color: rgb(5, 150, 150);
     box-shadow: inset -5px 2px 3px 0px rgb(150, 200, 200), inset 4px 0px 3px 0px rgb(150, 200, 200);
+    animation: wow 10s infinite;
 }
+.palker {
+    position: absolute;
+    border-radius: 7vh 10vh 0 0;
+    bottom: 0;
+    width: 3vh;
+    height: 74vh;
+    background-color: rgb(5, 150, 150);
+    margin-left: 7vh;
+    box-shadow: inset -5px 2px 3px 0px rgb(150, 200, 200), inset 4px 0px 3px 0px rgb(150, 200, 200); 
+    animation: wow 10s infinite;
+}
+.palker-rev {
+    position: absolute;
+    border-radius: 10vh 7vh 0 0;
+    bottom: 0;
+    width: 3vh;
+    height: 74vh;
+    background-color: rgb(5, 150, 150);
+    margin-left: -7vh;
+    box-shadow: inset -5px 2px 3px 0px rgb(150, 200, 200), inset 4px 0px 3px 0px rgb(150, 200, 200); 
+    animation: wow 10s infinite;
+}
+@keyframes wow {
+    0% {background-color: hsl(180, 93.5%, 30.4%);
+        box-shadow: inset -5px 2px 3px 0px hsl(180, 31.2%, 68.6%), inset 4px 0px 3px 0px hsl(180, 31.2%, 68.6%);}
+    25% {background-color: hsl(270, 93.5%, 30.4%);
+        box-shadow: inset -5px 2px 3px 0px hsl(270, 31.2%, 68.6%), inset 4px 0px 3px 0px hsl(270, 31.2%, 68.6%);}
+    50% {background-color: hsl(360, 93.5%, 30.4%);
+        box-shadow: inset -5px 2px 3px 0px hsl(360, 31.2%, 68.6%), inset 4px 0px 3px 0px hsl(360, 31.2%, 68.6%);}
+    75% {background-color: hsl(90, 93.5%, 30.4%);
+        box-shadow: inset -5px 2px 3px 0px hsl(90, 31.2%, 68.6%), inset 4px 0px 3px 0px hsl(90, 31.2%, 68.6%);}
+    }
