@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="http://db.onlinewebfonts.com/c/b7b82402ef622d152ae7b24c549f9865?family=TextaAltW00-Black" rel="stylesheet" type="text/css"/> 
+    <link href="https://blogfonts.com/css/aWQ9MTgwNDI4JnN1Yj00MjgmYz1zJnR0Zj1zYWxpaC1raXppbGtheWEtc2stcmV5a2phdmlrLXJvdW5kZWQtcmVndWxhci50dGYmbj1zay1yZXlramF2aWstcm91bmRlZC0y/SK Reykjavik Rounded.ttf" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_mYu68cogCApNvzUw7DK97');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_05m12qa', 'template_a0i1lvi', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+
+</head>
+<body>
+    <div class="block">
+        <div class="left">
+            <form action="#" id="contact-form"  >
+
+                <input type="hidden" name="contact_number">
+            
+            
+                <div>
+                    <p> Имя </p>
+                    <input placeholder="Имя" type="text" name="to-name">
+                </div>
+                
+                <div>
+                      <p>
+                          Пароль
+                      </p>
+                      <input type="password" name="pas">
+                </div>
+            
+                <div>
+                    <p>
+                        Email
+                    </p>
+                    <input type="email" name="email">
+                </div>
+              
+                
+                <div>
+                    <p>
+                        Телефон
+                    </p>
+                    <input type="tel" name="phone">
+                </div>
+            
+                <div>
+                    <p>
+                        Пол
+                    </p>
+                    <P>
+                        <Label> 
+                            <input type="radio" name="pol"> Мужской  
+                        </Label>
+                    </P>
+                    <p>
+                        <label>  
+                            <input checked type="radio" name="pol"> Женский
+                        </label>
+                        
+                    </p>
+                    
+                </div>
+            
+                <div>
+                    <p>
+                        Имущество
+                    </p>
+                    <p><label> <input checked type="checkbox" name="bike"> велик</label></p>
+                    <p><label> <input type="checkbox" name="car"> машина</label></p>
+                    <p><label><input type="checkbox" name="house"> Дом</label></p>
+                
+                </div>
+            
+                <div>
+                    <p>Дополнительная информация</p>
+                    
+                        <textarea></textarea>
+                </div>
+            
+                <div>
+                    <p>Прикрепить фото</p>
+                    <input type="file">
+                </div>
+            
+                <div>
+            <p>
+                Любимый цвет
+            </p>
+            
+            <select name="color" >
+                <option value="red">Красный</option>
+                <option value="red">Жолтый</option>
+                <option value="red">Зеленый</option>
+            </select>
+                </div>
+            
+                <div>
+                    <p>
+                        Действия 
+                    </p>
+                    <button type="submit">Отправить</button>
+                    <button type="reset">Очистить</button>
+                </div>
+            
+            
+            
+            
+            </form>
+        </div>
+        <div class="right">
+            <h>Hello, User!
+            <h1>If you want know more info   about out project, than
+            <div class="arrow">←</div>
+            </h1></h>
+            
+        </div>
+    </div>
+    <div class="ball"></div>
+
+
+
+
+
+
+</body>
+</html>
