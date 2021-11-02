@@ -162,6 +162,7 @@ a {
     .left {
         width: 100%;
         border-radius: unset;
+        height: 120vh;
     }
     .right {
         width: 100%;
@@ -177,5 +178,9 @@ a {
       }
       body {
         background-color: unset;
+    }
+    .textarea {
+        height: 35vh;
+        width: 80%;
     }
     }
