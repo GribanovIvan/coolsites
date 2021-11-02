@@ -1,0 +1,38 @@
+body {
+    background-color: #f5fef9;
+}
+.user {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #b3d5e8;
+    font-size: 120px;
+    text-align: center;
+}
+b {
+    font-size: xx-large;
+}
+p b {
+    font-size: unset;
+}
+.italic {
+    font-style: italic;
+    font-weight: lighter;
+}
+.palka {
+    background-color: gray;
+    border-radius: 5%;
+    margin-left: 0.5%;
+    height: 2px;
+    width: 99%;
+}
+h1 {
+    font-size: x-large;
+}
+a {
+    text-decoration: none;
+}
+.small {
+    font-size: large;
+    font-weight: lighter;
+}
