@@ -29,10 +29,14 @@ p b {
 h1 {
     font-size: x-large;
 }
-a {
+/* a {
     text-decoration: none;
-}
+} */
 .small {
-    font-size: large;
+    font-size: normal;
     font-weight: lighter;
+    line-height: 30%;
+}
+.gray {
+    color:gray;
 }
