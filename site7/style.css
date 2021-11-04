@@ -142,6 +142,12 @@ a {
     transform: translateY(-3px);
     border-radius: 0%;
   }
+.submit:active {
+ box-shadow: unset;
+ transition: all 0.05s ease 0s;
+ background-color: blue;
+ border-radius: 50%;
+ }
   @media screen and (max-width: 992px) {
     body {
         margin: 0;
