@@ -2,6 +2,8 @@ body {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 20vh;
+    background-color: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 ul {
   padding-left: 2rem;
@@ -9,12 +11,11 @@ ul {
 }
 ul li {
     padding-left: 2rem;
-    background-image: url(https://freepngimg.com/download/barack_obama/7-2-obama.png);
+    background-image: url(https://icon-icons.com/downloadimage.php?id=44856&root=472/PNG/48/&file=checkmark-48_44856.png);
     background-position: 0 0;
-    background-size: 1.6rem 3rem;
+    background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
     line-height: 1.6em;
-    font-family: Arial, Helvetica, sans-serif;
   }
  ul li:nth-child(1) {
     text-decoration: line-through;
@@ -28,3 +29,43 @@ ul li {
   ul li:last-child {
     text-transform: uppercase;
   }
+ul li:hover {
+    color:red;
+    transition: all 150ms;
+    background-image: url(./red.png);
+}
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #80b7b3;
+    font-size: x-large;
+    box-shadow: 0px 0px 40px 0px #80b7b3;
+    margin-top: 15vh;
+    margin-left: 40%;
+    transition: background-color 500ms;
+    color: white
+}
+button:hover {
+    background-color: #3a5856;
+    box-shadow: 0px 0px 10px 0px #80b7b3;
+}
+button:active {
+    transition: background-color 10ms;
+    background-color: #818181;
+    box-shadow: unset
+}
+.down {
+    margin-top: 10vh;
+}
+p, h1 {
+    font-size: large;
+    font-weight: normal;
+}
+
+p::first-line {
+    color: red
+  }
+h1::first-letter {
+    color: red;
+}
