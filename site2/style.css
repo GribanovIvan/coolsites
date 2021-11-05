@@ -1,8 +1,6 @@
-    .smoll { /*opacity: 0.3;*/
+ .smoll {
         height: 50px;
         width: 100%px;
-        /*background-color: rgba(2, 65, 94,.5);*/
-        /*transform: translate(30px, 20px) rotate(20deg);*/
         animation-iteration-count: infinite;
         transition: all 0.4s;
         box-sizing: border-box;
@@ -19,25 +17,24 @@
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_aZA7g4.ttf) format('truetype');
   }
-  @font-face {
-    font-family: 'Montserrat-bold';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype');
-  }
-  /* github ignores, thx
+@font-face {
+              font-family: 'Montserrat-bold';
+              font-style: normal;
+              font-weight: 400;
+              font-display: swap;
+              src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype');
+}
+  /* github fix
    */
-
-    body {
-        margin: 0%;
-        padding: 0%;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 200;
-        color: white;
-         }
+body {
+      margin: 0%;
+      padding: 0%;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 200;
+      color: white;
+}
     .header {
-        font-size: 250%; /* Размер шрифта в процентах */
+        font-size: 250%;
         text-align: center;
         width: 100%;
         height: 100vh;
@@ -53,7 +50,7 @@
         position: relative;
    margin-top: 20vh;
    font-size: 2em;
-}
+    }
     .logo {
         font-size: xx-large;
         font-weight: bold; 
@@ -151,7 +148,7 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
     .container {
         width: 28%;
         height: 50%;
-        margin-left: 4%;
+        margin-left: 3%;
         margin-top: 5%;
         display: inline-block;
         align-items: center;
@@ -257,3 +254,8 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
                 margin-right: 2%;
             }
         }
+.mtoptwitter {margin-top: 17%}
+.mtopa {margin-top: 13%}
+.mtopring {margin-top: 16%}
+.bone {float: right;margin-right: 5%}
+.mrzero {margin-right: 0}

@@ -39,52 +39,23 @@ h1 {
    }
 .block {
     /* background-image: linear-gradient(rgba(0, 38, 255, 0.93),rgba(255, 0, 234, 0.97)), url(https://pbs.twimg.com/media/DXsVe8aVoAADn-G.jpg); */
-    width: 60%;
-    margin-left: 20%;
-    height: 400px;
+    width: 80%;
+    margin-left: 10%;
+    height: 600px;
     background-color: rgba(126, 252, 0, 0.128);
-    border-radius: 30% 30% 30% 40% / 30% 45% 30% 5% ;
+    border-radius: 0.3% 30% 30% 40% / 30% 45% 30% 5% ;
 }
-/* .black {
-    background-image: url(https://cdn-icons-png.flaticon.com/512/91/91466.png);
-    width: 128px;
-    height: 128px;
-    background-size: cover;
-    position: absolute;
-    margin-left: 90%;
-} */
+.small {
+    width: 30%;
+    height: 300px;
+    background-image: url(https://hyperhost.ua/info/storage/uploads/2020/11/404%20robot.png);
+    background-size: cover; 
+    background-position: center;
+    margin-left: 2.5%;
+}
+.japan {background-image: url(http://mini.s-shot.ru/1920x1080/535/?https://gribanovivan.github.io/coolsites/site3/);}
 
-input {
-    /* width: 0%;*/
-    height: 0px; 
-}
-input::before {
-    content: '';
-    /* background: url(https://cdn-icons-png.flaticon.com/512/91/91466.png) no-repeat;*/
-    background: url(https://cdn.iconscout.com/icon/premium/png-256-thumb/night-285-722466.png) no-repeat;
-    width: 128px; 
-    height: 128px;
-    background-size: cover;
-    position: absolute;
-    top: 200px;
-    left: 200px;
-    display: block;
-    /* margin-left: 90px; */
-}
-input:checked + body{
-    background-color: blue;
-}
-
-input:checked + .black body {
-    background-color: black
-    /* width: 256px;
-    height: 256px; */
-}
-
-.black:hover {
-    margin-top: 5%;
-}
-/* 
 .block p {
-
-} */
+font-size: 2.5em;
+font-family: 'Roboto', sans-serif;
+}
