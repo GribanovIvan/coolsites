@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+}
+
+.iwantjs {
+    width: 100%;
+    margin-top: -2vh;
+    min-height: 100vh;
+    transition: background-color 500ms;
+}
 .higer {
     text-align: center;
     font-family: rwby;
@@ -44,6 +54,7 @@ h1 {
     height: 600px;
     background-color: rgba(126, 252, 0, 0.128);
     border-radius: 0.3% 30% 30% 40% / 30% 45% 30% 5% ;
+    box-shadow: 0px 0px 60px 0px rgba(126, 252, 0, 0.3);
 }
 .small {
     width: 30%;
@@ -52,10 +63,52 @@ h1 {
     background-size: cover; 
     background-position: center;
     margin-left: 2.5%;
+    border-radius: 3%;
 }
 .japan {background-image: url(http://mini.s-shot.ru/1920x1080/535/?https://gribanovivan.github.io/coolsites/site3/);}
 
 .block p {
 font-size: 2.5em;
 font-family: 'Roboto', sans-serif;
+}
+input {
+	height: 0px;
+}
+input::before {
+	content: '';
+	/* display: block; */
+	width: 7%;
+	height: 15%;
+	background: url(https://www.vectorkhazana.com/assets/images/products/Darth_Vader_SVG_Digital_Cut_File.png) no-repeat;
+	background-size: cover;
+    background-position: center;
+	position: absolute;
+	top: 1%;
+	right: 300px;
+	z-index: 999;
+}
+
+input:checked + .iwantjs {
+	background-color: #000;
+}
+input:checked + .iwantjs {
+	color: whitesmoke;
+}
+input:checked + .iwantjs .block{
+	background-color: rgba(107, 69, 182, 0.25);
+    box-shadow: 0px 0px 60px 0px rgba(107, 69, 182, 0.4);
+}
+/* планшет */
+@media screen and ( max-width: 991px) {
+	
+}
+
+
+
+/* телефон не больше 757 */ 
+@media screen and ( max-width: 767px) {
+	h1 {
+		font-size: 3px;
+	}
+	
 }
