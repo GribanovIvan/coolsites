@@ -151,3 +151,19 @@ top: 80%;
 }
 a {text-decoration: none;}
 a:visited {text-decoration: none}
+h2 {position: absolute;
+left: 20px;
+top: 13px;
+font-size: 0;}
+@supports (-moz-appearance:none) {
+    input {
+        height: 50px;
+        position: absolute;
+    }
+    .iwantjs {
+        margin-top: 0vh;
+    }
+    h2 {
+        font-size: x-large;
+    }
+}
