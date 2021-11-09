@@ -10,10 +10,12 @@ body {
     clip-path: polygon(50% 0%, -60% 500%, 2000% 8000%) !important;
     bottom: 100%;
     z-index: -2;
+    cursor: pointer;
 }
 .wood {
     margin-left: unset !important;
     width: 200% !important;
+    cursor: pointer;
 }
 .pencil {
     left: 43%;
@@ -21,6 +23,7 @@ body {
     width: 14% !important;
     z-index: -1;
     height: 30% !important;
+    cursor: pointer;
 }
 .palker {
     left: 20.5%;
@@ -28,6 +31,7 @@ body {
     width: 11% !important;
     z-index: -1;
     height: 30% !important;
+    cursor: pointer;
 }
 .palker-rev {
     left: 68.5%;
@@ -35,10 +39,11 @@ body {
     width: 11% !important;
     z-index: -1;
     height: 30% !important;
+    cursor: pointer;
 }
 .iwantjs {
     width: 100%;
-    margin-top: -3vh;
+    margin-top: -4vh;
     min-height: 100vh;
     transition: background-color 500ms;
 }
@@ -102,7 +107,10 @@ h1 {
     border-radius: 3%;
     transition: all 200ms;
     display: inline-block;
-    overflow:hidden
+    overflow:hidden;
+}
+.mtopdva {
+    margin-top: 2%;
 }
 .japan {background-image: url(http://mini.s-shot.ru/1920x1080/1080/?https://gribanovivan.github.io/coolsites/site3/);}
 .over {
@@ -142,10 +150,12 @@ input:checked + .iwantjs .block{
 	background-color: rgba(107, 69, 182, 0.25);
     box-shadow: 0px 0px 60px 0px rgba(107, 69, 182, 0.4);
 }
+@media screen and (min-width: 992px) {
 input:checked + .iwantjs .sword{
+ display: block;
  transition: all 500ms;
  opacity: 1;
-}
+}}
 .small:hover {
     border-radius: 0%;
     /* filter: invert(48%); */
@@ -196,7 +206,13 @@ h2 {position: absolute;
 font-size: 0;}
 .instawesome {background-image: url(http://mini.s-shot.ru/600x600/600/?https://gribanovivan.github.io/coolsites/site4/);}
 .insta {background-image: url(http://mini.s-shot.ru/600x600/600/?https://gribanovivan.github.io/coolsites/site5/);}
-.centred {
+.site1 {background-image: url(http://mini.s-shot.ru/1600x1080/1080/?https://gribanovivan.github.io/coolsites/site1/);}
+.startup {background-image: url(http://mini.s-shot.ru/1600x1080/1080/?https://gribanovivan.github.io/coolsites/site2/?1);}
+.form {background-image: url(http://mini.s-shot.ru/1280x768/768/?https://gribanovivan.github.io/coolsites/site7);}
+.resu {background-position: left;
+    background-image: url(http://mini.s-shot.ru/1280x800/800/?https://gribanovivan.github.io/coolsites/site8/);}
+.story {background-image: url(http://mini.s-shot.ru/1920x1080/1080/?https://gribanovivan.github.io/coolsites/site9/)}
+    .centred {
     position: relative;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -211,7 +227,7 @@ font-size: 0;}
     top: 30vh;
     height: 90vh;
     /* background-color: turquoise; */
-    opacity: 0;
+    display: none;
 }
 .down {
     background-size: contain;
@@ -221,7 +237,11 @@ font-size: 0;}
     height: 50vh;
     background-image: url(sword_[L1][T].png);
     background-repeat: no-repeat;
-    margin-left: -3%;
+    margin-left: -5%;
+    cursor: pointer;
+}
+.yes {
+    height: 5vh;
 }
 @media screen and (max-width: 992px) {
     input::before {
@@ -275,6 +295,9 @@ h1 {
 input:checked + .iwantjs .block{
 	background-color: rgba(107, 69, 182, 0.5);
     box-shadow: 0px 0px 300px 50px rgba(107, 69, 182, 0.6);
+}
+.mtopdva {
+    margin-top: unset;
 }
 }
 @supports (-moz-appearance:none) {
