@@ -118,7 +118,7 @@ h1 {
     margin-top: 3%
   }
 h3 {
-    line-height: ;
+    line-height: ; /* it`s ok */
 }
 .mtsix {
     margin-top: 6%;

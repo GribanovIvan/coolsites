@@ -8,42 +8,16 @@ body {
     margin-top: 2vh;
     width: 5vh;
     height: 10vh;
+    clip-path: polygon(50% 0%, -60% 250%, 2000% 4300%);
     background: linear-gradient(90deg, rgba(0,0,0,1) 60%, rgba(111,111,111,1) 65%, rgba(0,0,0,1) 80%);
 }
-.mask {
-	width: 0;
-	height: 0;
-	border-top: 10vh solid white; 
-	border-right: 2.5vh solid transparent;		
-}
-.mask2 {
-    margin-top: -10vh;
-    margin-left: 2.5vh;
-	border-top: 10vh solid white; 
-	border-left: 2.5vh solid transparent;
-}
-.mask3 {
-    margin-top: -10vh;
-    background-color: white;
-    width: 10vh;
-    height: 11vh;
-}
 .wood {
+    margin-top: 10vh;
     width: 10vh;
     height: 15vh;
     margin-left: -2.5vh;
     background: rgb(142,95,47);
     background: linear-gradient(90deg, rgba(142,95,47,1) 40%, rgba(223,167,109,1) 60%, rgba(142,95,47,1) 95%); 
-}
-.maskwood {
-    border-top: 15vh solid white; 
-	border-right: 2.5vh solid transparent;
-    float:left
-}
-.maskwood2 {
-    border-top: 15vh solid white; 
-	border-left: 2.5vh solid transparent;
-    float:right
 }
 .pencil {
     position: absolute;
