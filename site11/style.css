@@ -79,3 +79,16 @@ body {
     top: -105px;
    left: 60px; 
 }
+.nos {
+    position: relative;
+    border-radius: 100px;
+    width: 36px;
+    height: 21px;
+    background-color: yellow;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 3px solid black;
+    border-bottom: 0;
+    top: -120px;
+    left: 24px
+}
