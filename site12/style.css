@@ -1,0 +1,23 @@
+.col {
+    background-color: aquamarine;
+}
+.col-5 {
+    background-color: brown;
+}
+.card {
+    width: 23%;
+    margin-left: 1.6%;
+    margin-top: 5%;
+    height: 80vh;
+}
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+.btn {
+    background-color: yellow;
+    width: 100%;
+    color: gray;
+    transition: all 500ms;
+}
