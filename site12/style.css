@@ -7,7 +7,7 @@
 .card {
     width: 23%;
     margin-left: 1.6%;
-    margin-top: 5%;
+    margin-top: 3%;
     height: 80vh;
 }
 .body {
@@ -21,3 +21,84 @@
     color: gray;
     transition: all 500ms;
 }
+.cool
+{
+    background: rgb(116,59,59);
+    background: linear-gradient(45deg, rgba(116,59,59,1) 0%, rgba(194,169,64,1) 25%, rgba(47,208,85,1) 40%, rgba(110,161,214,1) 51%, rgba(161,112,207,1) 66%, rgba(169,65,161,1) 95%); 
+}
+body {
+    background-color: whitesmoke;
+}
+.yes {
+    transition: all 500ms;
+}
+.yes:hover .drop{
+opacity: 1;
+top: 100%
+}
+.drop {
+    position: absolute;
+    transition: all 200ms;
+    content: '';
+    left: 0%;
+    width: 150px;
+    top: -400px;
+    opacity: 0;
+    min-height: 50px;
+    background-color:lightgrey;
+    z-index: 99;
+    border-radius: 6px;
+    cursor:default;
+}
+.menus {
+background-color: red;
+width: 95%;
+margin-top: 2%;
+margin-left: 5%;
+border-radius: 10% 0% 0% 10% / 10% 0% 0% 10%;
+text-align: right;
+font-size: xx-large;
+height: 50px;
+font-family: 'Montserrat', sans-serif;
+}
+.egor:hover .egordva{
+opacity: 1;
+}
+.egordva {
+    position: absolute;
+    width: 300px;
+    min-height: 100px;
+    left: 100%;
+    top: 1%;
+    opacity: 0;
+    background-color: rgba(116, 59, 59, 0.75);
+}
+.egortri {
+    cursor: pointer;
+    font-size: large;
+    text-align: center;
+    background-color: rgba(116, 59, 59, 0.9);
+    margin-bottom: 1%;
+}
+.plan {
+    background-color: rgb(116, 59, 59);
+    margin-top: unset;
+    margin-bottom: 1%;
+    height: 40px;
+    font-size: 0.7em;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+}
+.plandva {
+    position: absolute;
+    width: 200px;
+    min-height: 10px;
+    left: 100%;
+    top: 50%;
+    opacity: 0;
+    background-color: rgba(59, 116, 64, 0.75);
+}
+.plan:hover .plandva {opacity: 1;}
+.plantri {background-color: lightgrey; margin-top: 1%;}
+.gen {background-color: lightskyblue;}
