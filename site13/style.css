@@ -1,0 +1,38 @@
+.navbar {
+    background-color: gray;
+    min-height: 105px;
+}
+.but {
+    float: right;
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    border: 2px solid #50ba87;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.but::before {
+    content: '';
+    background-color: #50ba87;
+    width: 60%;
+    height: 100%;
+    transition: all 500ms;
+    opacity: 0;
+}
+.but:hover::before{
+opacity: 1;
+width: 100%;
+}
+.but:hover p{
+    color: white;
+}
+p {
+    position: absolute;
+    line-height: 300%;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+    font-weight: 500;
+}
+.container-xxl {
+    max-width: 1170px !important;
+}
