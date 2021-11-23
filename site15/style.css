@@ -17,7 +17,7 @@ body {
 .first {
     height: 93vh;
     width: 100%;
-    background-image: url(Безымянный_[L1][x2.00][T]_[L1][x2.00][T].png);
+    background-image: url(imgs/Безымянный_[L1][x2.00][T]_[L1][x2.00][T].png);
     background-size: cover;
 }
 .uk-border-circle {margin-left: 50px;}
