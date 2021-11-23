@@ -1,9 +1,8 @@
 .navbar {
-    background-color: gray;
+    background-color: white;
     min-height: 105px;
 }
 .but {
-    float: right;
     height: 50px;
     width: 180px;
     background-color: white;
@@ -11,6 +10,11 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+}
+.yes {
+    float: right;
+    display: flex;
+    align-items: center;
 }
 .but::before {
     content: '';
@@ -35,4 +39,45 @@ p {
 }
 .container-xxl {
     max-width: 1170px !important;
+}
+.tel {
+    margin-right: 50px;
+    font-size: 0.95em;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+    transition: 300ms all;
+}
+.tel:hover {
+    text-decoration: none;
+    color: #50ba87;
+    cursor: pointer;
+}
+.fa-phone {
+    color: #50ba87;
+    margin-right: 15px;
+    font-size: 1.3em;
+}
+.fa-clock {
+    color: #50ba87;
+    margin-right: 15px;
+    font-size: 1.3em;
+}
+.palka {
+    width: 1px;
+    height: 20px;
+    background-color: rgba(128, 128, 128, 0.3);
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.time {
+    text-transform: uppercase;
+    margin-right: unset;
+}
+.bg2 {
+    background-color: rgb(22, 46, 68);
+}
+.mmm {
+    height: 40px;
+}
+.mm {
+    min-height: unset !important;
 }
