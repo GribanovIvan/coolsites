@@ -81,3 +81,38 @@ p {
 .mm {
     min-height: unset !important;
 }
+.buttons {
+    font-size: 16px;
+    letter-spacing: .05em;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+    color: white;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms;
+    height: 56px;
+    margin-top: -8px;
+    width: 70px;
+}
+.buttons:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.hello {
+    width: 70px;
+    height: 3px;
+    top: -0px;
+    background-color: #50ba87;
+    position: absolute;
+    opacity: 0;
+    transition: all 500ms;
+}
+.buttons:hover .hello {
+    /* animation-name: hello;
+    animation-duration: 300ms; */
+    opacity: 1;
+}
+/* @keyframes hello {
+    0% {opacity: 1;}
+    50% {opacity: 1;}
+} */

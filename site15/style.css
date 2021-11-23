@@ -1,0 +1,100 @@
+/* html {
+    background: unset;
+}
+body {
+    background-image: url(../site12/ybIX4Lx9kKM.png);
+} */
+.uk-navbar-container {
+    display: flex;
+    position: fixed;
+    width: 95%;
+    top: 2vh;
+    margin-right: 5%;
+}
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: unset
+}
+.first {
+    height: 93vh;
+    width: 100%;
+    background-image: url(Безымянный_[L1][x2.00][T]_[L1][x2.00][T].png);
+    background-size: cover;
+}
+.uk-border-circle {margin-left: 50px;}
+.yes {
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 35vh;
+}
+.uk-button-large {
+    margin-left: 25px;
+    background-color: #0bc9c3;
+    width: 250px;
+    height: 75px;
+}
+.big {
+    font-size: 3.5em;
+}
+.uk-text-meta {
+    font-size: larger;
+    letter-spacing: .1em;
+}
+footer {
+    min-height: 30vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+}
+.troll {
+    margin-left: 5%;
+    width: 35%;
+}
+.uk-card-title {
+    color: white;
+}
+.trolld {
+    margin-left: 10%;
+    width: 15%;
+    height: 125px;
+}
+.trollt {
+    margin-left: 5%;
+    width: 20%;
+    height: 125px;
+    display: flex;
+}
+li {
+    list-style-type: none;
+    font-size: larger;
+    letter-spacing: .1em;
+    color: #999
+}
+ul {
+    margin-top: 0;
+}
+.final {
+    margin-left: 5%;
+    width: 20%;
+    height: 125px;
+    display: flex;
+}
+.new {
+    width: 100%;
+    min-height: 50vh;
+    background-color: white;
+}
+.downer {
+    margin-top: 10vh;
+}
+.c {
+    text-align: center;
+}
+.mememe {
+    width: 45%;
+    margin-left: 27.5%;
+}
+.difle {
+    display: flex;
+    justify-content: center;
+}
