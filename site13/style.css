@@ -93,7 +93,8 @@ p {
     transition: all 300ms;
     height: 56px;
     margin-top: -8px;
-    width: 70px;
+    min-width: 70px;
+    margin-right: 50px;
 }
 .buttons:hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -107,6 +108,10 @@ p {
     opacity: 0;
     transition: all 500ms;
 }
+.big {
+    width: 91px;
+}
+.bigger {width: 96px;}
 .buttons:hover .hello {
     /* animation-name: hello;
     animation-duration: 300ms; */
@@ -116,3 +121,6 @@ p {
     0% {opacity: 1;}
     50% {opacity: 1;}
 } */
+.nojust {
+    justify-content: unset !important
+}
