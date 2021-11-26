@@ -19,6 +19,7 @@ body {
     width: 100%;
     background-image: url(imgs/Безымянный_[L1][x2.00][T]_[L1][x2.00][T].png);
     background-size: cover;
+    background-position: center;
 }
 .uk-border-circle {margin-left: 50px;}
 .yes {
@@ -97,4 +98,42 @@ ul {
 .difle {
     display: flex;
     justify-content: center;
+}
+@media screen and (max-width: 900px) {
+    .yes {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .uk-button-large {
+        margin-left: 3%;
+        width: 94%;
+        height: 80px;
+    }
+    .mememe {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .uk-text-meta {
+        font-size: x-large;
+        letter-spacing: .1em;
+    }
+    footer {
+        min-height: 50vh;
+        display: block;
+    }
+    .troll {
+        margin-left: 5%;
+        width: 90%;
+    }
+    .trolld {
+        margin-left: 5%;
+        width: 90%;
+        height: 125px;
+    }
+    .trollt {
+        margin-left: 5%;
+        width: 90%;
+        height: 125px;
+        display: flex;
+    }
 }
