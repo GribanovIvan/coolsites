@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+}
+.yes {
+    background-color: aqua;
+    border: 1px black solid;
+}
+.yeses {
+    border: 1px black solid
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 35vh 35vh;
+}
+.blue {
+    background-color: blue;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.yellow {
+    background-color: yellow;
+    background-image: url(https://memepedia.ru/wp-content/uploads/2020/06/shirokij-putin-idet-768x432.jpg);
+}
+.salat {
+    background-color: greenyellow;
+}
+.yes2 {
+    background-color: red;
+    height: 30vh;
+}

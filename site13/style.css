@@ -2,6 +2,9 @@
     background-color: white;
     min-height: 105px;
 }
+body {
+    font-family: unset !important;
+}
 .but {
     height: 50px;
     width: 180px;
@@ -122,5 +125,14 @@ p {
     50% {opacity: 1;}
 } */
 .nojust {
-    justify-content: unset !important
+    /* justify-content: unset !important; */
+    justify-content: flex-end
+}
+.yeses {
+position: relative;
+float: right;
+color: white;
+background-color: aqua;
+width: 100px;
+height: 20px;
 }

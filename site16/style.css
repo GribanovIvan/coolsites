@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    text-align: center;
+    opacity: 0.9;
+    transition: 500ms all;
+    background-size: cover;
+    background-position: center;
+}
+*:hover {
+    opacity: 1;
+}
+body {
+    background-image: url(https://images5.alphacoders.com/653/653610.jpg);
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 200px 58.1vh 200px;
+    grid-template-areas:
+    "header header header"
+    "nav main bad"
+    "footer footer footer"
+}
+.grid * {
+    height: 95%;
+}
+.header {
+    grid-area: header;
+    padding: 0.5%;
+}
+.nav {
+    grid-area: nav;
+}
+.tri {
+    background-color: coral;
+    background-image: url(https://img.joomcdn.net/c31414b6d30060174c40504b268598e117968c86_original.jpeg);
+    width: 95%;
+    margin-left: 2.5%;
+}
+.dva {
+    background-color: darkgreen;
+    background-image: url(Vanilla-Nekopara-Foreign-VN-Визуальные-новеллы-6711459.jpeg);
+
+    opacity: 0.9;
+}
+.main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+.chetire {
+    background-color: darkmagenta;
+    height: 110%;
+    margin-top: -2%;
+    width: 98.5%;
+    margin-left: 0.75%;
+    background-image: url(https://static.wikia.nocookie.net/nekopara/images/8/84/NEKOworks_Logo.png);   
+}
+.bad {
+    grid-area: bad;
+}
+.pyat {
+    background-color: green;
+    width: 95%;
+    margin-left: 2.5%;
+    background-image: url(https://play-lh.googleusercontent.com/7Gzjf1FoRcHWdSuGDIi9rHeZcT0BbYPAwAlacnISoPm7s79RfTpcMEjVL0F10fnzBg=w512);
+}
+.odin {
+    background-color: blue;
+}
