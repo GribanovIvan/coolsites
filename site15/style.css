@@ -105,7 +105,7 @@ ul {
         margin-right: 0%;
     }
     .uk-button-large {
-        margin-left: 3%;
+        margin-left: unset;
         width: 94%;
         height: 80px;
     }
@@ -128,12 +128,24 @@ ul {
     .trolld {
         margin-left: 5%;
         width: 90%;
-        height: 125px;
+        height: unset;
     }
     .trollt {
         margin-left: 5%;
         width: 90%;
         height: 125px;
         display: flex;
+    }
+    * {
+        text-align: center;
+    }
+    .trollt {
+        display: none;
+    }
+    .final {
+        display: none;
+    }
+    footer {
+        min-height: 1vh;
     }
 }
