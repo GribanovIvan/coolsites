@@ -40,8 +40,6 @@ body {
 .dva {
     background-color: darkgreen;
     background-image: url(Vanilla-Nekopara-Foreign-VN-Визуальные-новеллы-6711459.jpeg);
-
-    opacity: 0.9;
 }
 .main {
     grid-area: main;
@@ -55,7 +53,7 @@ footer {
     margin-top: -2%;
     width: 98.5%;
     margin-left: 0.75%;
-    background-image: url(https://static.wikia.nocookie.net/nekopara/images/8/84/NEKOworks_Logo.png);   
+    background-image: url(NEKOworks_LogoNewNew.png);   
 }
 .bad {
     grid-area: bad;
