@@ -165,3 +165,30 @@ b {
     margin-top: 10px;
     width: 130px;
 }
+footer {
+    width: 100%;
+    height: 100px;
+    background: #11263a;
+    color: gray;
+    align-items: center;
+    display: flex;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    text-align: center;
+    font-size: 1.5em !important;
+    letter-spacing: 1em;
+}
+a {
+    color: gray !important;
+    text-decoration: none !important;
+    transition: all 500ms;
+}
+h4 {
+    text-align: right;
+    font-size: small !important;
+}
+a:hover {
+    color: #50ba87 !important
+}
