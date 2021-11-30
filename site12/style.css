@@ -110,3 +110,10 @@ opacity: 1;
     justify-content: center;
     margin-left: -10%;
 }
+@media screen and (max-width: 900px) {
+* {text-align: center}
+.egordva {
+    left: 10%;
+    top: 100%;
+}
+}
