@@ -209,7 +209,9 @@ font-size: 0;}
 .site1 {background-image: url(http://mini.s-shot.ru/1600x1080/1080/?https://gribanovivan.github.io/coolsites/site1/);}
 .startup {background-image: url(http://mini.s-shot.ru/1600x1080/1080/?https://gribanovivan.github.io/coolsites/site2/?1);}
 .form {background-image: url(http://mini.s-shot.ru/1280x768/1080/?https://gribanovivan.github.io/coolsites/site7);}
-.dog {background-color: #00ffff; background-image: url(http://mini.s-shot.ru/1280x768/1080/?https://gribanovivan.github.io/coolsites/site11); background-size:contain; background-repeat: no-repeat;height: 200px;margin-top: 20px;}
+.dog {background-color: #00ffff; background-image: url(http://mini.s-shot.ru/1280x768/1080/?https://gribanovivan.github.io/coolsites/site11);
+    /* background-size:contain; background-repeat: no-repeat;height: 200px;margin-top: 20px; */
+}
 .egor {background-color: #f5f5f5; background-image: url(http://mini.s-shot.ru/1920x960/1080/?https://gribanovivan.github.io/coolsites/site12/); background-position: top;}
 .resu {background-position: left;
     background-image: url(http://mini.s-shot.ru/1280x800/800/?https://gribanovivan.github.io/coolsites/site8/);}

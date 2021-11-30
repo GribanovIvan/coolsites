@@ -106,7 +106,7 @@ ul {
     }
     .uk-button-large {
         margin-left: unset;
-        width: 94%;
+        width: 34%;
         height: 80px;
     }
     .mememe {
@@ -114,7 +114,7 @@ ul {
         margin-left: 0%;
     }
     .uk-text-meta {
-        font-size: x-large;
+        font-size: large;
         letter-spacing: .1em;
     }
     footer {

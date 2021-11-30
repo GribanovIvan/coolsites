@@ -192,3 +192,29 @@ h4 {
 a:hover {
     color: #50ba87 !important
 }
+.col-9 {
+    transition: all 500ms;
+    animation-delay: 0.2s;
+    animation-name: fadeInDown;
+}
+.up {
+    margin-top: -5vh;
+}
+.col-9 {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .col-9 img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .col-9 img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+.box-categories-title {
+    color:white;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+    text-align: center;
+    margin: -50px;
+    font-size: x-large !important;
+}

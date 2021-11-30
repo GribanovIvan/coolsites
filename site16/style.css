@@ -12,6 +12,7 @@
 body {
     background-image: url(https://images5.alphacoders.com/653/653610.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .grid {
     display: grid;
@@ -33,13 +34,11 @@ body {
     grid-area: nav;
 }
 .tri {
-    background-color: coral;
     background-image: url(https://img.joomcdn.net/c31414b6d30060174c40504b268598e117968c86_original.jpeg);
     width: 95%;
     margin-left: 2.5%;
 }
 .dva {
-    background-color: darkgreen;
     background-image: url(Vanilla-Nekopara-Foreign-VN-Визуальные-новеллы-6711459.jpeg);
 }
 .main {
@@ -49,9 +48,8 @@ footer {
     grid-area: footer;
 }
 .chetire {
-    background-color: darkmagenta;
     height: 110%;
-    margin-top: -2%;
+    margin-top: -40px;
     width: 98.5%;
     margin-left: 0.75%;
     background-image: url(NEKOworks_LogoNewNew.png);   
@@ -67,4 +65,8 @@ footer {
 }
 .odin {
     background-color: blue;
+}
+@media screen and (max-width: 767px){
+    .grid {
+        grid-template-columns: 1fr 2fr;
 }

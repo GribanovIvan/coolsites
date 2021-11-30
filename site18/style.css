@@ -1,0 +1,115 @@
+body {
+    background-color: #333333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    background-color: #794e45;
+    position: fixed;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.centred {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.texts {
+margin-left: 5%;
+min-width: 100px;
+font-family: 'Roboto', sans-serif;
+}
+.mains {
+    width: 1440px;
+    min-height: 100vh;
+    margin-top: 6vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.bar {
+    grid-area: bar;
+    background-color: #7a956c;
+    height: 100vh;
+    position: fixed;
+    width: 190px;
+}
+.garry {
+    grid-area: garry;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 200px 4fr;
+    grid-template-areas:
+    "bar garry"
+}
+ul {
+  list-style-type: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+li {
+    margin-top: 0.8em;
+}
+b {
+    font-size: xx-large;
+}
+h1 {
+    font-size: x-large;
+}
+.gridva {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30vh 30vh 30vh 30vh;
+    width: 100%;
+    height: 0vh;
+    padding-bottom: 100%;
+}
+.ugar {
+ background-size: cover;
+    /* border: 1px black solid; */
+    margin: 5px 5px;
+    background-position: center;}
+.konata {
+    background-image: url(https://chpic.su/_data/stickers/l/luckystarnicole/luckystarnicole_060.webp);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.konata2 {
+    background-image: url(https://99px.ru/sstorage/53/2012/06/tmb_43523_8245.jpg);
+}
+.konata3 {
+    background-image: url(https://i1.sndcdn.com/avatars-000326781000-exuweq-t240x240.jpg);
+}
+.konata4 {
+    background-image: url(k2.png);
+}
+.konata5 {
+    background-image: url(https://c.wallhere.com/photos/da/5f/Izumi_Konata_anime_Lucky_Star-245552.jpg!d);
+}
+.mi {
+    grid-column: 3/5;
+    grid-row: 3/5;
+    background-image: url(https://wallpaperaccess.com/full/2173816.jpg);
+    background-position: left;
+    transform: scale(-1, 1);
+}
+.mi2 {
+    background-image: url(http://pm1.narvii.com/6696/80fe63692525e773038946ce1fec0310a9792bce_00.jpg);
+}
+.mi3 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bb2cd04c-ea39-40c3-a872-e44496e24aa5/d1v304m-ac47322d-d7d5-490c-994d-c75e409abeee.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JiMmNkMDRjLWVhMzktNDBjMy1hODcyLWU0NDQ5NmUyNGFhNVwvZDF2MzA0bS1hYzQ3MzIyZC1kN2Q1LTQ5MGMtOTk0ZC1jNzVlNDA5YWJlZWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eCGlFW6cg8zS0mwleAIfz6wswYj7RhV3FD3Qk10zstc);
+}
+.mi4 {
+    background-image: url(https://c.tenor.com/-1qtvHIcqz4AAAAC/miyuki-takara.gif);
+}
+.mi5 {
+    background-image: url(https://live.staticflickr.com/5254/5437526063_e61129c38a_b.jpg);  
+  
+}
+.nobig {
+    height: 10vh;
+}
