@@ -11,6 +11,7 @@
 }
 body {
     background-image: url(https://images5.alphacoders.com/653/653610.jpg);
+    background-repeat: no-repeat;
 }
 .grid {
     display: grid;
