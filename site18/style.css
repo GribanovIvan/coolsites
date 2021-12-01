@@ -122,11 +122,24 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50vh 50vh 50vh;
     width: 100%;
-    height: 0vh;
+    height: 60vh;
 }
 .jar {
     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcontent.instructables.com%2FORIG%2FF6B%2FBBTO%2FI4SCV28U%2FF6BBBTOI4SCV28U.jpg%3Fframe%3D1%26width%3D2100&f=1&nofb=1);
 }
 .buy {
     height: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}
+.button {
+    margin-bottom: 5px;
+    width: 50%;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+}
+.button:hover {
+background-color: blue;
 }
