@@ -218,3 +218,24 @@ a:hover {
     margin: -50px;
     font-size: x-large !important;
 }
+@media screen and (max-width: 767px)  {
+    .text {
+        margin-left: 0%;
+    }
+    * {
+        text-align: center;
+    }
+.phoneit {
+    width: 90% !important;
+    margin-left: 5% !important;
+}
+.imgt {
+    display: block;
+}
+.mmm {
+    height: unset;
+}
+h3 {
+    letter-spacing: .3em;
+}
+}

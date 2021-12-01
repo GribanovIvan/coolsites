@@ -11,6 +11,8 @@ body {
     width: 100%;
     height: 60px;
     display: flex;
+    z-index: 99;
+    align-items: center;
 }
 .centred {
     justify-content: center;
@@ -39,6 +41,7 @@ font-family: 'Roboto', sans-serif;
 }
 .garry {
     grid-area: garry;
+    margin-top: 30px;
 }
 .grid {
     display: grid;
@@ -50,6 +53,7 @@ ul {
   list-style-type: none;
   color: white;
   font-family: 'Roboto', sans-serif;
+  margin-top: 60px;
 }
 li {
     margin-top: 0.8em;
@@ -65,12 +69,11 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 30vh 30vh 30vh 30vh;
     width: 100%;
-    height: 0vh;
-    padding-bottom: 100%;
+    height: 120vh;
 }
 .ugar {
  background-size: cover;
-    /* border: 1px black solid; */
+    border: 1px black solid;
     margin: 5px 5px;
     background-position: center;}
 .konata {
@@ -99,6 +102,7 @@ h1 {
 }
 .mi2 {
     background-image: url(http://pm1.narvii.com/6696/80fe63692525e773038946ce1fec0310a9792bce_00.jpg);
+    background-position: top;
 }
 .mi3 {
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bb2cd04c-ea39-40c3-a872-e44496e24aa5/d1v304m-ac47322d-d7d5-490c-994d-c75e409abeee.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JiMmNkMDRjLWVhMzktNDBjMy1hODcyLWU0NDQ5NmUyNGFhNVwvZDF2MzA0bS1hYzQ3MzIyZC1kN2Q1LTQ5MGMtOTk0ZC1jNzVlNDA5YWJlZWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eCGlFW6cg8zS0mwleAIfz6wswYj7RhV3FD3Qk10zstc);
@@ -112,4 +116,17 @@ h1 {
 }
 .nobig {
     height: 10vh;
+}
+.gritri {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50vh 50vh 50vh;
+    width: 100%;
+    height: 0vh;
+}
+.jar {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcontent.instructables.com%2FORIG%2FF6B%2FBBTO%2FI4SCV28U%2FF6BBBTOI4SCV28U.jpg%3Fframe%3D1%26width%3D2100&f=1&nofb=1);
+}
+.buy {
+    height: 30%;
 }

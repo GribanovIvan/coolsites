@@ -99,7 +99,7 @@ ul {
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 991px) {
     .yes {
         width: 100%;
         margin-right: 0%;
