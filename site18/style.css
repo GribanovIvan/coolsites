@@ -73,7 +73,7 @@ h1 {
 }
 .ugar {
  background-size: cover;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     margin: 5px 5px;
     background-position: center;}
 .konata {
@@ -134,7 +134,7 @@ h1 {
 }
 .button {
     margin-bottom: 5px;
-    width: 50%;
+    width: 200px;
     height: 50px;
     background-color: aqua;
     border-radius: 10px;
@@ -142,4 +142,28 @@ h1 {
 }
 .button:hover {
 background-color: blue;
+}
+@media screen and (max-width: 991px) {
+    .centred{ display: none;}
+    .gridva {
+        grid-template-columns:1fr;
+        grid-template-rows: 80vh;
+        height: 500vh;
+    }
+    .mi {
+        grid-column: unset;
+        grid-row: unset;
+    }
+    .konata {
+        grid-column: unset;
+        grid-row: unset;
+    }
+    .bar {
+        grid-area: unset;
+        background-color: #7a956c;
+        height: 30vh;
+        position: relative;
+        width: 90%;
+        ma
+    }
 }
