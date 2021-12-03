@@ -173,7 +173,22 @@ background-color: blue;
     li {
         font-size: xx-large;
     }
+ 
+ 
     .no {
         margin-top: -1em;
     }
+}
+@media screen and (max-width: 767px) {
+* {
+    text-align: center;
+}
+.bar {
+    width: 100%;
+    margin-left: 0;
+}
+.bar {
+    position: absolute;
+}
+
 }
