@@ -1,0 +1,261 @@
+ .smoll {
+        height: 50px;
+        width: 100%px;
+        animation-iteration-count: infinite;
+        transition: all 0.4s;
+        box-sizing: border-box;
+        padding: 1px;
+        font-size: xx-large;
+        color: white;
+        text-align: center;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_aZA7g4.ttf) format('truetype');
+  }
+@font-face {
+              font-family: 'Montserrat-bold';
+              font-style: normal;
+              font-weight: 400;
+              font-display: swap;
+              src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype');
+}
+  /* github fix
+   */
+body {
+      margin: 0%;
+      padding: 0%;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 200;
+      color: white;
+}
+    .header {
+        font-size: 250%;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-color: rgb(199, 56, 52);
+        background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(https://dg.imgix.net/why-doesn-t-my-church-share-the-gospel-ai95qccl-en/landscape/why-doesn-t-my-church-share-the-gospel-ai95qccl-81cb92fa674fac719e1cb6477da71b52.jpg);
+        justify-content: center;
+        object-fit:cover;
+        background-repeat: no-repeat;
+    }
+
+    .header p {
+        position: relative;
+   margin-top: 20vh;
+   font-size: 2em;
+    }
+    .logo {
+        font-size: xx-large;
+        font-weight: bold; 
+        text-align: left;
+        margin-left: 5%;
+        margin-top: 0.3%;
+    }
+    .logo a {
+color: white;
+text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    }
+    .buttons {
+        /*text-align: right;*/
+        float: right;
+        margin-right: 3%;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+        font-weight: normal;
+    }
+        .button {
+        /*text-align: right;*/
+        float: right;
+        margin-right: 3%;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+        font-weight: normal;
+        border: 2px solid #FFF;
+        border-radius: 3px; /* Радиус скругления */
+        position: absolute;
+        margin: auto;
+        top: 60%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 300px;
+        height: 70px;
+        align-items: center;
+    }
+    .button:hover {
+        background-color: white;
+        color: rgb(199, 56, 52);
+    }
+    .button a {
+    color: white;
+    text-decoration: none;
+    vertical-align:middle;
+    }
+        .button:hover a {
+ color: rgb(199, 56, 52);
+ padding: 20px 13px 25px;
+
+    }
+    .buttons:hover {
+  box-shadow: 0 0 10px 0 rgb(199, 56, 52) inset, 0 0 10px 4px rgb(199, 56, 52);
+  transition: font-size 0.3s;
+  font-size:xxx-large
+}
+.down {
+    font-size: 1em;
+    margin-top: -2%;
+}
+    .logos {
+    width: 100%;
+    height: 79vh;
+    background-color: white;
+    color: gray;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat-bold';
+    margin-top: 10%;
+    }
+    .logos p {
+        font-weight: bold;
+        font-size: xx-large;
+    }
+    .palka {
+        width: 4.5%;
+        height: 5px;
+        background-color:gray;
+        border-radius: 3px;
+        margin-left: 47.75%;
+    }
+    .mad {
+        margin-top: 2%;
+        font-size: x-large;
+    }
+    .space {
+        position: absolute;
+        height: 50%;
+        width: 100%;
+        background-color: rgb(199, 56, 52);
+        text-align: center;
+        align-items: center;
+    }
+    .container {
+        width: 28%;
+        height: 50%;
+        margin-left: 3%;
+        margin-top: 5%;
+        display: inline-block;
+        align-items: center;
+        color:rgb(199, 56, 52);
+    }
+    .container b {
+        font-size: x-large;
+        color: gray;
+        font-weight: bold;
+    }
+    .container h {
+        font-size: x-large;
+        color: gray;
+    }
+    .circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 2px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 600%;
+    }
+    .circle:hover {
+        background-color: rgb(199, 56, 52);
+            color:white;
+            transition: all 250ms ease-in-out;
+    }
+    .circlesmall {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: inline-block;
+        font-size: xx-large;
+        margin-right: 1%;
+        margin-top: 9%;
+        text-align: center
+    }
+    .circlesmall:hover {
+        background-color: white;
+            color:rgb(199, 56, 52);
+            transition: all 250ms ease-in-out;
+    }
+    .space h {
+        margin-top: 4%;
+        font-size:x-large;
+        font-family: 'Montserrat';
+        display:block
+    }
+    @media screen and (max-width: 992px) {
+        .space {
+            height: 20%;
+            margin-top: 150%;
+        }
+        .container {
+            width: 100%;
+            height: 60%;
+            margin-left: 0%;
+            margin-top: 0%;
+            display: block;
+            /* align-items: center
+            color:rgb(199, 56, 52); */
+        }
+        .circle {
+            width: 450px;
+            height: 450px;
+            border: 4px solid gray;
+            text-align: center;
+            font-size: 1800%;
+            margin-top: 3%;
+        }
+            .container b {
+                font-size: 400%;
+            }
+            .container h {
+                font-size: 300%;
+            }
+            .logos p {
+                font-size: 500%;
+            }
+            .palka {
+                width: 45%;
+                height: 6px;
+                background-color:gray;
+                border-radius: 5px;
+                margin-left: 27.5%;
+                margin-top: -7%;
+            }
+            .mad {
+                font-size: 180%;
+            }
+            .circlesmall {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                border: 3px solid gray;
+                font-size: 400%;
+                margin-right: 2%;
+            }
+        }
+.mtoptwitter {margin-top: 17%}
+.mtopa {margin-top: 13%}
+.mtopring {margin-top: 16%}
+.bone {float: right;margin-right: 5%}
+.mrzero {margin-right: 0}

@@ -1,0 +1,16 @@
+.uk-card {
+    margin-top: 50px;
+}
+.left {
+    float: left !important
+}
+.uk-text-meta {
+    position: absolute
+}
+.down {
+    position: absolute;
+    top: 85px
+}
+.space {
+    height: 100px;
+}
