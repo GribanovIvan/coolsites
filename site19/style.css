@@ -11,9 +11,10 @@ body {
     height: 100px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .logo {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-top: 3px;
 height: 100%;
 }
@@ -26,6 +27,7 @@ height: 100%;
 .minih {
     height: 50%;
     display: flex;
+    justify-content: center;
 }
 @font-face {
     font-family: 'Questrial-Regular';
@@ -36,7 +38,7 @@ height: 100%;
     height: 100%;
     width: 35px;
     margin-left: 30px;
-    margin-right: 20px;
+    margin-right: 15px;
     display: block;
 }
 p {
@@ -69,8 +71,70 @@ p {
 .icons {
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 25px;
     color: gray;
     letter-spacing: 1em;
     font-size: x-large;
+    margin-right: -15px;
+}
+.mlmm {
+    margin-left: 120px;
+    margin-right: 10px;
+}
+.search {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    width: 240px;
+    margin-left: 25px;
+    grid-template-areas:
+    "left block"
+}
+.search * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.left {
+    height: 100%;
+    grid-area: left;
+    background: #EFF3F6;
+    border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
+font-size: large;
+}
+.block {
+    height: 100%;
+    grid-area: block;
+    background: #DD4053;
+    margin-left: -3px;
+    border-radius: 3px;
+    color: white;
+}
+.tf {
+    max-width: 205px;
+}
+.green {
+    background: #4AD295;
+}
+@media screen and (max-width: 1420px) {
+    .delme {display: none;}
+}
+@media screen and (max-width: 1260px) {
+    .delmeme {display: none;}
+    .mobfix {margin-left: 120px;}
+}
+@media screen and (max-width: 1200px) {
+    .delmememe {display: none;}
+}
+@media screen and (max-width: 1030px) {
+    .delmemememe {display: none;}
+    .mobfix {display: none;}
+}
+
+@media screen and (max-width: 830px) {
+    .delmememememe {display: none;}
+    .palka {display: none;}
 }
