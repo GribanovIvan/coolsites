@@ -148,7 +148,6 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
     .container {
         width: 28%;
         height: 50%;
-        margin-left: 3%;
         margin-top: 5%;
         display: inline-block;
         align-items: center;
@@ -224,7 +223,7 @@ text-decoration: none; /* Отменяем подчеркивание у ссы�
             text-align: center;
             font-size: 1800%;
             margin-top: 3%;
-        }
+        }   
             .container b {
                 font-size: 400%;
             }

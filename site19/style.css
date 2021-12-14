@@ -190,3 +190,10 @@ font-size: large;
     background: #D0D0D0;
     height: 1px;
 }
+.do {
+    background-image:  url("Rectangle 83.svg"),url(Безымянный.png);
+    height: 490px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
