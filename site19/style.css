@@ -17,6 +17,7 @@ body {
     /* margin-left: 100px; */
     margin-top: 3px;
 height: 100%;
+z-index: -5;
 }
 .palka {
     height: 100%;
@@ -132,17 +133,60 @@ font-size: large;
 @media screen and (max-width: 1030px) {
     .delmemememe {display: none;}
     .mobfix {display: none;}
+    .button {margin-left: 3% !important}
 }
-
+@media screen and (max-width: 880px) {
+.button {margin-left: 2% !important;}
+}
 @media screen and (max-width: 830px) {
     .delmememememe {display: none;}
     .palka {display: none;}
 }
+@media screen and (max-width: 781px) {
+
+}
 .downer {
     width: 100%;
     height: 70px;
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.downer .fa-solid {color: #343434;
+    cursor: pointer;}
+.button {
+    min-width: 30px;
+    height: 100%;
+    /* background-color: aqua; */
+    font-family: Questrial-Regular;
+    margin 0;
+    /* display: flex; */
+    line-height: 70px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 4%;
+    cursor: pointer;
+}
+.button:hover .hi {opacity: 1;
+    transition: opacity 500ms;
+}
+.hi {
+    width: 120%;
+    margin-left: -10%;
+    height: 3px;
+    z-index: 99;
+    background-color: #DD4053;
+    opacity: 0;
+    margin-top: -3px;
+    transition: opacity 100ms;
+}
+/* .button p {
+    color: #C4C4C4;
+    font-size: small;
+} */
+.ulpal {
+    width: 100%;
+    background: #D0D0D0;
+    height: 1px;
 }
