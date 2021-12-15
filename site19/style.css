@@ -166,13 +166,17 @@ font-size: large;
     /* justify-content: center; */
     align-items: center;
     margin-left: 4%;
-    cursor: pointer;
+    /* cursor: pointer; */
+    cursor: default;
 }
 .button:hover .hi {opacity: 1;
     transition: opacity 500ms;
 }
 .button:hover .opy {opacity: 0 !important;
     transition: opacity 100ms;
+}
+.button:hover .buttonb {
+    display: inline-block;
 }
 
 .hi {
@@ -275,6 +279,26 @@ transition: border 100ms;
       opacity: 1;
       transition: opacity 500ms;
   }
-.drop {
-    
+.buttonb {
+    content: '';
+    min-width: 250px;
+    min-height: 100px;
+    background-color: whitesmoke;
+    /* display: inline-block; */
+    position: absolute;
+    display: none;
+    border-radius: 3px;
+}
+.button:hover::before {
+    display: inline-block;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-style: Montserrat-f;
+    margin-left: 5%;
+    font-size: x-large;
+}
+.po {
+    cursor: pointer;
 }
