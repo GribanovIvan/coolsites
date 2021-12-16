@@ -207,7 +207,7 @@ font-size: large;
     display: flex;
 }
 @media screen and (min-width: 1800px) {
-    .do {width: 133.3%;margin-left: -16.66%;}
+    .do {width: 130%;margin-left: -15%;}
 }
 .priceblock {
     /* border: 3px solid black; */
@@ -302,3 +302,19 @@ a {
 .po {
     cursor: pointer;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height  : 250px;
+    grid-template-areas:
+    "l r"
+}
+.r {
+    grid-area: r;
+    background-color: #4AD295;
+}
+.l {
+    grid-area: l;
+    background-color:aqua 
+}
+.
