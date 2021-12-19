@@ -315,6 +315,20 @@ a {
 }
 .l {
     grid-area: l;
-    background-color:aqua 
 }
-.
+.vash {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    color: #1D1D1D
+}
+.mlt {
+    margin-left: 30%;
+}
+.o {
+    font-family: 'Open Sans', sans-serif;
+line-height: 28px;
+letter-spacing: 0em;
+color: #777777; 
+font-size: x-large;
+margin-top: 15px;
+}
