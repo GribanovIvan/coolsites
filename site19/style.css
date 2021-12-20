@@ -206,9 +206,6 @@ font-size: large;
     background-position: center;
     display: flex;
 }
-@media screen and (min-width: 1800px) {
-    .do {width: 130%;margin-left: -15%;}
-}
 .priceblock {
     /* border: 3px solid black; */
     margin-left: 200px;
@@ -275,6 +272,15 @@ transition: border 100ms;
     src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_dJE3g3D_u50.woff2) format('woff2');
     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
   }
+  /* latin */
+@font-face {
+    font-family: 'Montserrat-b';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
   .opy {
       opacity: 1;
       transition: opacity 500ms;
@@ -306,12 +312,12 @@ a {
     display: grid;
     grid-template-columns: 3fr 2fr;
     height  : 250px;
+    margin-top: 30px;
     grid-template-areas:
     "l r"
 }
 .r {
     grid-area: r;
-    background-color: #4AD295;
 }
 .l {
     grid-area: l;
@@ -332,3 +338,219 @@ color: #777777;
 font-size: x-large;
 margin-top: 15px;
 }
+.bu {
+    display: grid;
+    grid-template-columns: 0.43fr 0.57fr;
+    height  : 50px;
+    margin-top: 20px;
+    grid-template-areas:
+    "l r"
+}
+.ch {
+    background: #BDBDBD;
+    font-family: 'Montserrat-b';
+    color: white;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+.onezerofourzero {
+    max-width: 1040px;
+}
+.kon {
+    border: 1px solid #969696;
+box-sizing: border-box;
+border-radius: 2px;
+margin-left: 30px;
+font-family: 'Montserrat-b';
+font-size: large;
+color: #969696;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 60%;
+cursor: pointer;
+}
+@media screen and (min-width: 1800px) {
+    /* .do {width: 130%;margin-left: -15%;} */
+.onezerofourzero {
+    max-width: 1440px;
+}
+
+.ignore {
+    max-width: 100%
+}
+}
+.circle {
+    background-image: url("Ellipse 13.svg");
+    width: 6.2vh;
+    height: 6.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-size: cover;
+}
+.minic {
+    height: 6.2vh;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #3D3D3D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+}
+@media screen and (max-width: 1800px) {
+.vash {
+    font-size: xx-large;
+}
+.minic {
+    font-size: large;
+}
+}
+.fe {
+    background: #F8F8F8;
+}
+.none {
+    height: 1px;
+}
+.mtn {
+    margin-top: 90px;
+    font-size: 2.7em;
+    font-family: 'Montserrat-f';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cf {
+    border: 1px solid #C6C6C6;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 6%;
+    color: #C6C6C6;
+line-height: 100%;
+cursor:not-allowed
+}
+.cfb {
+    border: 1px solid #454545;
+    margin-left: 4%;
+    color: #454545;
+    cursor: pointer;
+}
+.v {
+    height: 45px;
+    width: 10%;
+    font-size: 0.4em
+}
+.on {
+    width: 20%;
+    margin-left: 6%;
+    margin-right: 3%;
+    margin-top: -3px;
+}
+.pics {
+    display: grid;
+    height: 60vh;
+    grid-template-columns: 1000fr 65fr 1000fr 65fr 1000fr;
+    margin-top: 50px;
+    grid-template-areas:
+    "pica stop picb stop picc"
+}
+.pic {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 300ms;
+}
+.pica {
+    background-image: url(1.png)
+}
+.pic:hover .stars{
+    opacity: 1;
+    transition: all 1s;
+}
+.pica:hover {
+    background-image:  url("Rectangle 83.svg"),url(1.png);
+}
+.picb {
+    background-image: url(2.jpg);
+    background-position: center;
+}
+.picb:hover {
+    background-image:  url("Rectangle 83.svg"),url(2.jpg);
+}
+.picc {
+    background-image: url(https://i.travelapi.com/hotels/2000000/1510000/1504300/1504267/c41c4172.jpg);
+background-position: right;
+}
+.picc:hover {
+    background-image:  url("Rectangle 83.svg"),url(https://i.travelapi.com/hotels/2000000/1510000/1504300/1504267/c41c4172.jpg);
+}
+.gray {
+    margin-top: 20px;
+    background: #04040459;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.gray p {
+    font-family: 'Open Sans-r';
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: large;
+    line-height: 150%;
+    color: white;
+    cursor:default;
+}
+.pc {
+    width: 60%;
+    height: 30%;
+    margin-top: 35%;
+    margin-left: 20%;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: all 300ms;
+}
+.stars * {
+    margin-left: 2%;
+}
+.stars p {
+    margin-left: unset;
+    margin-top: 2%;
+    font-family: 'Montserrat-f';
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.gb {
+    width: 180px;
+}
+.gc {
+    width: 250px;
+}
+@font-face {
+    font-family: 'Open Sans-r';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVIGxA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  @font-face {
+    font-family: 'Open Sans-r';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
