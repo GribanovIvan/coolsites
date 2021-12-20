@@ -467,14 +467,14 @@ cursor:not-allowed
     transition: all 300ms;
 }
 .pica {
-    background-image: url(1.png)
+    background-image: url(pica.png)
 }
 .pic:hover .stars{
     opacity: 1;
     transition: all 1s;
 }
 .pica:hover {
-    background-image:  url("Rectangle 83.svg"),url(1.png);
+    background-image:  url("Rectangle 83.svg"),url(pica.png);
 }
 .picb {
     background-image: url(2.jpg);
