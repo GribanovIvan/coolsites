@@ -359,6 +359,11 @@ margin-top: 15px;
 .onezerofourzero {
     max-width: 1040px;
 }
+.onetwoonezero {
+    max-width: 1210px;
+    display: flex;
+    justify-content: center;
+}
 .kon {
     border: 1px solid #969696;
 box-sizing: border-box;
@@ -457,6 +462,7 @@ cursor:not-allowed
     height: 60vh;
     grid-template-columns: 1000fr 65fr 1000fr 65fr 1000fr;
     margin-top: 50px;
+    margin-bottom: 10px;
     grid-template-areas:
     "pica stop picb stop picc"
 }
@@ -477,11 +483,11 @@ cursor:not-allowed
     background-image:  url("Rectangle 83.svg"),url(pica.png);
 }
 .picb {
-    background-image: url(2.jpg);
+    background-image: url(2.png);
     background-position: center;
 }
 .picb:hover {
-    background-image:  url("Rectangle 83.svg"),url(2.jpg);
+    background-image:  url("Rectangle 83.svg"),url(2.png);
 }
 .picc {
     background-image: url(https://i.travelapi.com/hotels/2000000/1510000/1504300/1504267/c41c4172.jpg);
@@ -554,3 +560,6 @@ background-position: right;
     src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
+.more {
+    width: 31%;
+}
