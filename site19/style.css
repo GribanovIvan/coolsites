@@ -134,17 +134,58 @@ font-size: large;
     .delmemememe {display: none;}
     .mobfix {display: none;}
     .button {margin-left: 3% !important}
+    .mtn {font-size: xx-large !important;}
+    .cf {
+        font-size: 1.4em !important;
+    }
 }
 @media screen and (max-width: 880px) {
 .button {margin-left: 2% !important;}
+.priceblock {margin-left: unset !important;}
+.ohvar {width: 100% !important;
+margin-top: 10% !important;}
 }
 @media screen and (max-width: 830px) {
     .delmememememe {display: none;}
     .palka {display: none;}
+    .grid {
+        display: unset !important;
+    }
+    .on { width: 10% !important;}
 }
-@media screen and (max-width: 781px) {
-
+@media screen and (max-width: 720px) {
+.mobdel { display: none;}
+.downer {display: none !important;}
+.v {width: 15% !important;}
+.on {display: none;}
+.pics {display: unset !important;}
+.pic {height: 60vh !important;}
+.pc {margin-top: 20% !important;}
+.pc * {font-size: xx-large;}
 }
+@media screen and (max-width: 490px) {
+.ohvar{font-size: xx-large !important;}
+.r {display: none !important;}
+.bu {
+    grid-template-columns: 1.2fr 1fr !important;
+}
+.kon {
+    width: 80% !important;
+}
+.v {
+width: 20% !important;
+}
+    }
+    @media screen and (max-width: 390px) {
+        .ohvar{font-size: x-large !important;}
+        .mtn {
+            font-size: 1.45em !important;
+        }
+        .v {
+            height: 25px !important;
+        }
+        .plskill {display: none !important}
+            }
 .downer {
     width: 100%;
     height: 70px;
@@ -159,7 +200,8 @@ font-size: large;
     min-width: 30px;
     height: 100%;
     /* background-color: aqua; */
-    font-family: Questrial-Regular;
+    /* font-family: Questrial-Regular; */
+    font-family: 'Montserrat-f', sans-serif;
     margin 0;
     /* display: flex; */
     line-height: 70px;
@@ -565,12 +607,46 @@ background-position: right;
 }
 footer {
     /* background-image: url("Rectangle 251.svg"),url(https://www.wallpapertip.com/wmimgs/83-837458_riverwalk.jpg); */
-    background-image: url(https://www.wallpapertip.com/wmimgs/83-837458_riverwalk.jpg);
+     height: 40vh;
     width: 100%;
-    height: 370px;
+}
+.back {
+    background-image: url(https://www.wallpapertip.com/wmimgs/83-837458_riverwalk.jpg);
+    position: absolute;
     background-position: 50% 10%;
     filter: grayscale(90%);
+    width: 100%;
+    height: 40vh;
+    z-index: -99;
 }
-footer * {
-    filter: unset;
+.footergrid {
+display: grid;
+/* grid-template-columns: 156fr 157fr 183fr 157fr 230fr 157fr; */
+grid-template-columns: 16fr 16fr 18fr 16fr 23fr 16fr;
+width: 100%;
+grid-template-areas:
+"area1 stop area2 area3 area4 area5"}
+.down * {
+margin-top: 10vh;
+}
+.area2 {
+    grid-area: area2;
+}
+h1 {
+font-size: large;
+font-family: 'Montserrat-f', sans-serif;
+    list-style-type: none;
+    margin: -10em;
+    padding: -10em;
+}
+
+@media screen and (max-width: 560px) {
+.cf {display: none;}
+        }
+        @media screen and (max-width: 470px) {
+.scaleme {font-size: x-large !important;}
+        }
+.downcol {
+    background: rgb(29, 29, 29);
+    opacity: 0.2;
 }
