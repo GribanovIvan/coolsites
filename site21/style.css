@@ -1,0 +1,48 @@
+.our {
+    width: 27vh;
+    height: 10vh;
+    background-color: green;
+}
+button {
+    color: white;
+    font-size: xx-large;
+}
+.yeses {
+    height: 10vh;
+    width: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.blue {background-color: blue;}
+.grid {
+    grid-template-rows: 10vh;
+    margin-top: 10vh;
+    margin-left: 20vh;
+}
+.notop {
+    margin-top: 10px
+}
+@media screen and (max-width: 600px) {
+    .grid {
+        margin-left: 10px;
+        /* display: unset; */
+    }
+    .our {
+        font-size: large;
+    }
+    .mobfix {
+        display: flex;
+        justify-content: center;
+    }
+    .yeses {
+        margin-left: 5px;
+    }
+    .our {
+        width: 20vh;
+    }
+}
+.large {
+    font-size: x-large;
+    width: 25vh;
+}
