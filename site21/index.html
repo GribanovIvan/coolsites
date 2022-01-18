@@ -10,21 +10,22 @@
 </head>
 <body>
 <div class="mobfix">
-<div class="grid">
+<div class="grid mobno notop">
 <div class="grid notop">
-<button class="our">Наше Число</button>
-<div class="yeses" id=name></div>
+<button class="our" id=our onclick="enterb()">Наше Число a, <p>Введите b</p></button>
+<div class="yeses" id=name>
+</div>
 </div>
 <div class="grid">
-<button class="yeses blue large" onclick="clicka()">^2 (Площадь круга)</button>
-<div class="yeses" id=nametwo></div>
+<button class="yeses blue large blankb blank" onclick="clicka()">^2 (Площадь квадрата)</button>
+<div class="yeses blank blanky" id=nametwob></div>
 </div>
 <div class="grid">
     <button class="yeses blue" onclick="clickb()">-</button>
     <div class="yeses" id=nameb></div>
     </div>
     <div class="grid">
-        <button class="yeses blue large" onclick="clicke()">Периметр Круга</button>
+        <button class="yeses blue large" onclick="clicke()">Периметр квадрата</button>
         <div class="yeses" id=namee></div>
         </div>
     <div class="grid">
@@ -32,9 +33,13 @@
         <div class="yeses" id=namec></div>
         </div>
         <div class="grid">
-            <button class="yeses blue" onclick="clickd()">/3 круг</button>
+            <button class="yeses blue" onclick="clickd()">/3 + округление</button>
             <div class="yeses" id=named></div>
             </div>
+            <div class="grid">
+                <button class="yeses blue large noblank" onclick="clicka()">^2 (Площадь квадрата)</button>
+                <div class="yeses noblank" id=nametwo></div>
+                </div>
             </div></div>
 <script type="text/javascript" src="main.js"></script>
 </body>

@@ -18,10 +18,24 @@ button {
 .grid {
     grid-template-rows: 10vh;
     margin-top: 10vh;
-    margin-left: 20vh;
+    margin-left: 15vh;
 }
 .notop {
     margin-top: 10px
+}
+.large {
+    font-size: x-large;
+    width: 25vh;
+}
+.blankb {
+    background-color: rgba(0,0,0, 0);
+}
+.blanky {
+border: unset;}
+.blank {
+    color:rgba(0,0,0, 0);}
+p {
+    color:tomato;
 }
 @media screen and (max-width: 600px) {
     .grid {
@@ -41,8 +55,21 @@ button {
     .our {
         width: 20vh;
     }
+    .mobno {
+        display: unset;
+    }
+    .large {
+        font-size: large;
+        width: 20vh;
+    }
+    .noblank {
+       display: none}
+       .blue {
+           background-color: blue !important;
+       }
+       .blank {color:white}
+       .blanky {color: black;border: 1px black solid;}
 }
-.large {
-    font-size: x-large;
-    width: 25vh;
+@media screen and (min-width: 601px) {
+       .blankb {border:unset;}
 }

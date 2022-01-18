@@ -1,4 +1,25 @@
-let name = +prompt("Throw me number");
+let name = +prompt("Throw me number a");
+
+function enterb() {
+    let b = +prompt("Throw me number b");
+    console.log(b)
+    var el = document.getElementById('name');
+if (typeof el.innerText !== 'undefined') {
+    // IE8-
+    el.innerText = 'a=' + name + ', b=' + b;
+} else {
+    // Нормальные браузеры
+    el.textContent = 'a=' + name + ', b=' + b;
+}
+var el = document.getElementById('our');
+if (typeof el.innerText !== 'undefined') {
+    // IE8-
+    el.innerText = 'Наши Числа';
+} else {
+    // Нормальные браузеры
+    el.textContent = 'Наши Числа';
+}
+}
 
 var el = document.getElementById('name');
 if (typeof el.innerText !== 'undefined') {
@@ -12,6 +33,14 @@ if (typeof el.innerText !== 'undefined') {
 function clicka() {
 nametwo = name**2
 var elnew = document.getElementById('nametwo');
+if (typeof elnew.innerText !== 'undefined') {
+    // IE8-
+    elnew.innerText = nametwo;
+} else {
+    // Нормальные браузеры
+    elnew.textContent = nametwo;
+}
+var elnew = document.getElementById('nametwob');
 if (typeof elnew.innerText !== 'undefined') {
     // IE8-
     elnew.innerText = nametwo;
