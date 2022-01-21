@@ -160,6 +160,8 @@ input:checked + .iwantjs .sword{
     border-radius: 0%;
     /* filter: invert(48%); */
     transition: all 500ms;
+    transition: box-shadow 200ms;
+    box-shadow: -2px -2px 5px 1px purple, 2px 2px 5px 1px rgb(55, 55, 235);
 }
 .small:hover .over {
     transition: all 500ms;
