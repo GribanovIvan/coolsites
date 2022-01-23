@@ -1,0 +1,17 @@
+.yeses {
+height: 500px;
+width: 700px;
+margin-left: 3%
+}
+.flex {
+    display: flex;
+}
+button {
+    height: 30%;
+}
+/* hr {
+    margin-top: 150px
+} */
+.absolute {
+    position: absolute;
+}
