@@ -1,7 +1,6 @@
 .yeses {
 height: 500px;
 width: 700px;
-margin-left: 3%
 }
 .flex {
     display: flex;
@@ -26,6 +25,15 @@ button {
     width: 100%;
     height: 100%;
 }
+.center {
+    display: flex;
+    justify-content: center;
+}
 .gridnine button {
     height: unset;
+    }
+    @media screen and (max-width: 1500px) {
+    .flex {display: unset !important;}
+    .big {width: 700px;
+    height: 100px;}
     }
