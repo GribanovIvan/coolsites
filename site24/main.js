@@ -3,7 +3,7 @@ const text = document.getElementById("ptext")
 let msg=''
 let num=1
 enter.onclick = function() {
-    msg=msg + '\n' + num + '. ' + document.getElementById("input-id").value
+    msg=    msg + '<li >' + num + '. ' + document.getElementById("input-id").value + '</li>'
     num++
-    text.innerText = msg
+    text.innerHTML = msg
 }
