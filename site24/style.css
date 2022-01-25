@@ -1,0 +1,68 @@
+@font-face {
+    font-family: strahanet;
+    src: url(runic.TTF);
+}
+.higer {
+    font-family: strahanet;
+    font-size: 5em;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.right {
+    margin-left: 30%;
+}
+.left {
+    margin-left: -10%;
+}
+.yeses {
+    margin-top: 10%;
+    height: 60vh;
+    margin-left: 20%;
+    width: 60%;
+}
+p {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+@media screen and (max-width: 1111px) {
+    .yeses {
+        margin-top: 15%;
+        height: 60vh;
+        margin-left: 10%;
+        width: 80%;
+    }
+    .left {
+        margin-left: -10%;
+    }
+    .right {
+        margin-left: 60%;
+    }
+}
+@media screen and (max-width: 666px) {
+    .higer {
+        font-size: 3em;
+    }
+    .left {
+        margin-left: -20%;
+    }
+    .right {
+        margin-top: 25%;
+    }
+    .yeses {
+        margin-top: 25%;
+    }
+}
+@media screen and (max-width: 450px) {
+        .input {
+            display: block;
+        }
+        .left {
+            margin-left: unset;
+        }
+        .right {
+            margin-top: unset;
+        }
+}
