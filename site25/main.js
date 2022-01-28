@@ -5,15 +5,17 @@ for (let i = 1; i <= 10; i++) {
     i++
     console.log(i)
 }
+task3.onclick = function() {
 let n=+prompt('n?')
 num=2
 loop:for (let i = 2; i <= n; i++) {
 for (let temp = 2; temp < i; temp++) {
 if (i % temp == 0) continue loop;
 }
-console.log(i)
-}
-let a=+prompt('a?')
+alert(i)
+}}
+task1.onclick = function() {
+    let a=+prompt('a?')
 let b=+prompt('b?')
 function min(a,b) {
     if ( a > b) {
@@ -24,16 +26,18 @@ function min(a,b) {
     } else{actual='error'}}
     return actual
 }
-alert('min=' + min(a,b))
+alert('min=' + min(a,b))}
+task2.onclick = function() {
 let x=+prompt('x?')
 function pow(x,n) {
     return x**n
 }
-alert ('x**n=' + pow(x,n))
+alert ('x**n=' + pow(x,n))}
+task4.onclick = function() {
 let target= +prompt('N?')
 let newr=1
 let newa=+prompt('A?')
 for (let tempnum = 1; tempnum <= target; tempnum++ ) {
     newr=newr+newa**tempnum
 }
-alert (newr)
+alert (newr)}
