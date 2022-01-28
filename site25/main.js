@@ -30,3 +30,10 @@ function pow(x,n) {
     return x**n
 }
 alert ('x**n=' + pow(x,n))
+let target= +prompt('N?')
+let newr=1
+let newa=+prompt('A?')
+for (let tempnum = 1; tempnum <= target; tempnum++ ) {
+    newr=newr+newa**tempnum
+}
+alert (newr)
