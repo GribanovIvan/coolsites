@@ -1,0 +1,14 @@
+.yeses {
+    width: 80%;
+    height: 80vh;
+    margin-top: 5vh;
+    margin-left: 10%
+}
+.block {
+    width: 200px;
+    height: 100px;
+    background-color: violet;
+    margin: 10px;
+    margin-right: unset;
+    float: left
+}

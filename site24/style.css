@@ -14,16 +14,13 @@
 }
 .yeses {
     margin-top: 2%;
-    height: 60vh;
+    height: 30vh;
     margin-left: 20%;
     width: 60%;
 }
 ul {
     margin-top: 1%;
 }
-li {
-    list-style-type: none; /* Убираем маркеры */
-   }
 
 @media screen and (max-width: 1111px) {
     .yeses {
