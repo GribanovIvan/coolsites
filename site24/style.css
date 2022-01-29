@@ -22,13 +22,6 @@ ul {
     margin-top: 1%;
 }
 
-@media screen and (max-width: 1111px) {
-    .yeses {
-        height: 60vh;
-        margin-left: 10%;
-        width: 80%;
-    }
-}
 @media screen and (max-width: 666px) {
     .higer {
         font-size: 3em;
@@ -37,5 +30,10 @@ ul {
 @media screen and (max-width: 450px) {
         .input {
             display: block;
-        }   
+        }
+}
+@media screen and (max-width: 370px) {
+    .higer {
+        font-size: 2em;
+    }
 }
