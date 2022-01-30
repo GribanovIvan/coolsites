@@ -94,7 +94,7 @@ h1 {
     /* height: 600px; */
     min-height: 50vh;
     background-color: rgba(126, 252, 0, 0.2);
-    border-radius: 15px 20% 20% 15%;
+    border-radius: 15px 12% 20% 3%;
     box-shadow: 0px 0px 60px 0px rgba(126, 252, 0, 0.4);
 }
 .small {
@@ -210,7 +210,7 @@ font-size: 0;}
 .insta {background-image: url(http://mini.s-shot.ru/600x600/600/?https://gribanovivan.github.io/coolsites/site5/);}
 .site1 {background-image: url(http://mini.s-shot.ru/1600x1080/1080/?https://gribanovivan.github.io/coolsites/site1/);}
 .startup {background-image: url(http://mini.s-shot.ru/1600x1080/1080/?https://gribanovivan.github.io/coolsites/site2/?1);}
-.form {background-image: url(http://mini.s-shot.ru/1280x768/1080/?https://gribanovivan.github.io/coolsites/site7);}
+.form {background-image: url(http://mini.s-shot.ru/1280x768/1280/?https://gribanovivan.github.io/coolsites/site7);}
 .dog {background-color: #00ffff; background-image: url(http://mini.s-shot.ru/1280x768/1080/?https://gribanovivan.github.io/coolsites/site11);
     /* background-size:contain; background-repeat: no-repeat;height: 200px;margin-top: 20px; */
 }
@@ -220,7 +220,9 @@ font-size: 0;}
 .story {background-image: url(http://mini.s-shot.ru/1920x1080/1080/?https://gribanovivan.github.io/coolsites/site9/)}
 .boot{background-image: url(http://mini.s-shot.ru/1600x1080/1080/?https://gribanovivan.github.io/coolsites/site13);background-position: top;}
 .uikit{background-image: url(http://mini.s-shot.ru/1600x1080/1080/?https://gribanovivan.github.io/coolsites/site15);background-position: top;}
-.neko{background-image: url(http://mini.s-shot.ru/1600x950/1080/?https://gribanovivan.github.io/coolsites/site16);background-position: center; background-size: cover;background-repeat: no-repeat;}
+.neko{background-image: url(http://mini.s-shot.ru/1600x905/1080/?https://gribanovivan.github.io/coolsites/site16);background-position: center; background-size: cover;background-repeat: no-repeat;}
+.star{background-image: url(http://mini.s-shot.ru/1280x768/1280/?https://gribanovivan.github.io/coolsites/site18)}
+.valenta{background-image: url(http://mini.s-shot.ru/1440x840/1440/?https://gribanovivan.github.io/coolsites/site19)}
 .centred {
     position: relative;
     text-align: center;

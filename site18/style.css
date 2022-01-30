@@ -173,11 +173,12 @@ background-color: blue;
     li {
         font-size: xx-large;
     }
- 
- 
     .no {
         margin-top: -1em;
     }
+}
+.left {
+    cursor: pointer;
 }
 @media screen and (max-width: 767px) {
 * {
