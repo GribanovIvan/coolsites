@@ -21,7 +21,7 @@
 ul {
     margin-top: 1%;
 }
-
+p {text-align: center;}
 @media screen and (max-width: 666px) {
     .higer {
         font-size: 3em;

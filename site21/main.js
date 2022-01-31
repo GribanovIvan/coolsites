@@ -1,6 +1,7 @@
-let name = +prompt("Throw me number a")
+let name = +prompt("Введите первое число для операций")
+const our=document.querySelector('.our')
 function enterb() {
-    b = +prompt("Throw me number b")
+    b = +prompt("Введите второе число для операций")
     console.log(b)
     var el = document.getElementById('name')
 if (typeof el.innerText !== 'undefined') {
@@ -18,6 +19,7 @@ if (typeof el.innerText !== 'undefined') {
     // Нормальные браузеры
     el.textContent = 'Наши Числа'
 }
+our.style.height= "10vh"
 }
 
 var el = document.getElementById('name')

@@ -1,0 +1,7 @@
+.crop {
+    overflow: hidden;
+}
+body {display: flex;}
+.crop img {
+    margin: -15% 0 -17% -60%;
+}
