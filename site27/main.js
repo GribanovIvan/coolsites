@@ -7,9 +7,11 @@ block.style.background='red'
 let array = ['#FF0000', '#00FF00', '#0000FF']
 let temp=0
 change.onclick = function() {
-    let x = document.getElementById("add").value
-    console.log(x)
-    if (!array.includes(x)) {array.push(x)}
     temp=temp + 1
+    let x = document.getElementById("add").value
+    if (!array.includes(x)) {
+        array.push(x)
+        temp=array.length -1
+    }
     block.style.background=array[temp % array.length]
 }
