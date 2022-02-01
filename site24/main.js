@@ -43,3 +43,5 @@ function add (n) {
 // ffmpeg -i 13.\ Русское\ поле\ экспериментов.m4a -ss 429.5 -c opus -strict -2 -t 6.8 nado3.opus
 // ffmpeg -i 13.\ Русское\ поле\ экспериментов.m4a -ss 425.9 -c opus -strict -2 -t 3.2 nado2.opus
 // ffmpeg -i 13.\ Русское\ поле\ экспериментов.m4a -ss 422.7 -c opus -strict -2 -t 2.9 nado1.opus
+function dredel (n){del(n)}
+function arealdel(n){realdel(n)}
