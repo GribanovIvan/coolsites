@@ -254,6 +254,39 @@ font-size: 0;}
 .yes {
     height: 5vh;
 }
+.fixjs {
+    position: fixed;
+width: 33.75%;
+height: 60vh;
+margin-left: 83.125%;
+margin-top: 85vh;
+border-radius: 49%;
+background-color: #fbde3c;
+transition: all 1s;
+z-index: 9999;
+}
+.fixjs a {
+font-size: 10em;
+margin-left: 30%;
+line-height: 1;
+color:#000
+}
+.fixjs:hover {
+    animation: js 700ms normal forwards ease-in-out;
+}
+@keyframes js {
+    from {
+margin-left: 83.125%;
+margin-top: 85vh;
+border-radius: 49%;
+    }
+  
+    to {
+        margin-left: 75%;
+        margin-top: 75vh;
+        border-radius: 49%;
+    }
+  }
 @media screen and (max-width: 992px) {
     input::before {
         position: fixed;
