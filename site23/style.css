@@ -29,13 +29,17 @@ button {
     display: flex;
     justify-content: center;
 }
+.fake {
+    opacity: 0;
+    display: none;
+}
 .gridnine button {
     height: unset;
     }
     @media screen and (max-width: 1500px) {
     .flex {display: unset !important;}
     .big {width: 700px;
-    height: 100px;}
+    height: 100px}
     }
 body {
     background-image: url(http://images6.fanpop.com/image/photos/34300000/Sanae-Mizuno-another-34321490-400-258.png);

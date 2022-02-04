@@ -4,6 +4,17 @@ let gg=document.querySelector('.gg')
 let elevator=document.querySelector('.elevator')
 let none=document.querySelector('.none')
 let danger
+let fake=document.querySelector('.fake')
+Element.prototype.remove = function() {
+    this.parentElement.removeChild(this);
+}
+NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
+    for(var i = this.length - 1; i >= 0; i--) {
+        if(this[i] && this[i].parentElement) {
+            this[i].parentElement.removeChild(this[i]);
+        }
+    }
+} // https://stackoverflow.com/questions/3387427/remove-element-by-id
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
@@ -39,6 +50,8 @@ async function clicke() {
      if (danger == 1) {
      if ( die != 1 ) {
      die=1
+     document.getElementById("delme").remove()
+     fake.style.display= 'block'
      none.style.display= "none"
      gg.style.opacity= "0"
      elevator.style.marginTop="35px"
@@ -65,40 +78,40 @@ async function clicke() {
  function down() {
 martop += step
 if ( martop + ch > 500 ) {
-    alert('куда.')
     martop -= step
+    alert('куда.')
 }
 cube.style.marginTop= martop + "px"
  }
  function up() {
     martop -= step
     if ( martop < 0 ) {
-        alert('куда.')
         martop=0
+        alert('куда.')
     }
     cube.style.marginTop= martop + "px"
      }
      function right() {
         marleft += step
         if ( marleft + cw > 700 ) {
-            alert('куда.')
             marleft -= step
+            alert('куда.')
         }
         cube.style.marginLeft= marleft + "px"
          }
          function left() {
             marleft -= step
             if ( marleft < 0 ) {
-                alert('куда.')
                 marleft=0
+                alert('куда.')
             }
             cube.style.marginLeft= marleft + "px"
              }
              function wmin() {
                 cw -= step
                 if ( cw < 200 ) {
-                    alert('cw must be >= 200')
                     cw=200
+                    alert('cw must be >= 200')
                 }else 
                 cube.style.width= cw + "px"
                  }
@@ -106,12 +119,12 @@ cube.style.marginTop= martop + "px"
                  function wup() {
                     cw += step
                     if ( marleft + cw > 700 ) {
-                        alert('куда.')
                         cw -= step
+                        alert('куда.')
                     }
                     if ( cw > 600 ) {
-                        alert('cw must be < 600')
                         cw=600
+                        alert('cw must be < 600')
                     }else 
                     cube.style.width= cw + "px"
                      }
@@ -119,8 +132,8 @@ cube.style.marginTop= martop + "px"
              function hdown() {
                 ch -= step
                 if ( ch < 100 ) {
-                    alert('ch must be >= 100    ')
                     ch=100
+                    alert('ch must be >= 100')
                 }else 
                 cube.style.height= ch + "px"
                  }
@@ -128,12 +141,12 @@ cube.style.marginTop= martop + "px"
                  function hup() {
                     ch += step
                     if ( martop + ch > 500 ) {
-                        alert('куда.')
                         ch -= step
+                        alert('куда.')
                     }
                     if ( ch > 400 ) {
-                        alert('ch must be < 400')
                         ch=400
+                        alert('ch must be < 400')
                     }else 
                     cube.style.height= ch + "px"
                      }
