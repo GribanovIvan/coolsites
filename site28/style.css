@@ -1,0 +1,45 @@
+* {
+    margin: 0
+}
+.settings {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 1em;
+    background-color: rgba(240, 248, 255, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.fakesmall {opacity: 0; font-size: xx-small;}
+.header {
+    width: 99.5%;
+    margin-top: 0.5vh;
+    display: flex;
+    position: fixed;
+    justify-content: right;
+}
+body {
+    background-image: url(https://kartinkin.net/uploads/posts/2021-07/1626724504_10-kartinkin-com-p-zelenii-fon-dlya-vizitki-krasivo-11.jpg);
+background-size: cover;
+}
+.panel { position: fixed;
+width: 20%;
+/* margin-left: 80%; */
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.8);
+margin-left: 100%;
+}
+.close {
+margin-top: 2%;
+margin-left: 2%;
+    background-color: red;
+    width: 15%;
+border-radius: 15%;
+color: white;
+font-size: xxx-large;
+text-align: center;
+cursor: pointer;
+}

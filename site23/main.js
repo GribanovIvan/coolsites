@@ -19,7 +19,7 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 function move1() {
-    if (die != 1) {
+    if (die != 1){
     gg.style.marginLeft= "100px"
     danger=0
     gg.style.opacity= "1"
