@@ -20,6 +20,7 @@
     display: flex;
     position: fixed;
     justify-content: right;
+    height: 60px;
 }
 body {
     background-image: url(https://kartinkin.net/uploads/posts/2021-07/1626724504_10-kartinkin-com-p-zelenii-fon-dlya-vizitki-krasivo-11.jpg);
@@ -35,11 +36,32 @@ margin-left: 100%;
 .close {
 margin-top: 2%;
 margin-left: 2%;
-    background-color: red;
-    width: 15%;
+background-color: red;
+width: 15%;
 border-radius: 15%;
 color: white;
 font-size: xxx-large;
 text-align: center;
 cursor: pointer;
+width: 20%;
 }
+h1 {
+    font-size: xx-large;
+    color:white;
+    font-family: 'Montserrat-el'
+}
+.backs {
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 100%;
+height: 50%;
+}
+.h100{height: 100%;}
+.backimg {
+    background-size: cover;
+    background-image: url(https://wallpaperaccess.com/full/2832094.jpg);
+}
+.origin{background-image: url(https://kartinkin.net/uploads/posts/2021-07/1626724504_10-kartinkin-com-p-zelenii-fon-dlya-vizitki-krasivo-11.jpg);}
+.puk{background-image: url(https://images4.alphacoders.com/109/thumb-1920-1093501.jpg);}
+.plaj{background-image: url(https://i.pinimg.com/originals/39/96/fe/3996fe46f394c747aabd5606fed7377a.jpg);}
+.wall{background-image: url(https://image.shutterstock.com/z/stock-photo-brick-wall-grunge-wall-background-350879696.jpg);}
