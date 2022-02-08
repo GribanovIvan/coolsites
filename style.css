@@ -264,6 +264,7 @@ border-radius: 49%;
 background-color: #fbde3c;
 transition: all 1s;
 z-index: 9999;
+cursor: pointer;
 }
 .fixjs a {
 font-size: 10em;
