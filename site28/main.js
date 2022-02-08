@@ -24,3 +24,15 @@ ok.onclick = function() {
   let x = document.getElementById("color").value
   document.body.style.background = x
 }
+const script = document.createElement('script');
+script.setAttribute('type', 'text/javascript');
+script.setAttribute('src', '../site22/main.js');
+const hidden=document.querySelector('.hidden')
+const element = document.getElementById("element")
+run1.onclick = function(){
+document.head.appendChild(script);
+document.getElementById("run1r").remove()
+document.getElementById("rm2").remove()
+hidden.style.display = 'block'
+element.classList.add("calcs-s");
+}
