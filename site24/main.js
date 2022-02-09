@@ -10,6 +10,7 @@ let num=1
 let data = Array();
 enter.onclick = function() {
     let temp=num // any unique variable
+    document.getElementById("input-id").value = num + '. ' + document.getElementById("input-id").value
     msg=msg + '<li id=li' + temp + '>' + document.getElementById("input-id").value + '<button onclick=del(' + temp + ')>del</button></li>'
     data[temp]=document.getElementById("input-id").value
     num++
