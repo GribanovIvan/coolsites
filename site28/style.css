@@ -80,7 +80,7 @@ height: 50%;
     border-radius: 15px;
     box-shadow: 0px 0px 20px 0px gray;
     font-size: xx-large;
-    display: flex;
+    float: left
 }
 .fakemar {
     height: 100px;
@@ -88,11 +88,12 @@ height: 50%;
     /* background-color: red; */
 }
 .larges .larges {
-    width: 40%;
+    display: flex;
+    width: 31%;
     margin-left: 1%;
     margin-top: 1%;
     margin-right: 1%;
-    height: 40%;
+    height: 45%;
     justify-content: center;
 }
 .larges button {
@@ -104,9 +105,6 @@ height: 50%;
 .test {
     margin-left: 15%;
     margin-right: 15%;
-}
-.flexer {
-    display: flex;
 }
 .calcs {
     background-image: linear-gradient(rgba(15, 72, 194, 0.9),rgba(0,0,0,.1)), url(http://mini.s-shot.ru/1280x720/1280/?https://gribanovivan.github.io/coolsites/site21);
@@ -143,4 +141,51 @@ span {
 }
 .moveblock {
     background-image: linear-gradient(rgba(15, 72, 194, 0.9),rgba(0,0,0,.0)), url(http://mini.s-shot.ru/700x600/700/?https://gribanovivan.github.io/coolsites/site23/moveblock);
+}
+.todo {
+    background-position:top;
+    color:orange;
+    background-image: linear-gradient(rgba(15, 72, 194, 0.9),rgba(0,0,0,.0)), url(http://mini.s-shot.ru/640x640/640/?https://gribanovivan.github.io/coolsites/site24);
+}
+.mt3h {
+    margin-top: 3vh;
+}
+.s25 {
+    background-image: url(http://mini.s-shot.ru/800x800/800/?https://gribanovivan.github.io/coolsites/site25);
+}
+.addblock {
+    background-image: url(http://mini.s-shot.ru/800x400/800/?https://gribanovivan.github.io/coolsites/site26);
+}
+.abs {
+    position: absolute;
+    margin-top:42px;
+    margin-left: 40%;
+    z-index: -1;
+    width: 60%;
+}
+.block {
+    float:unset
+}
+.abso {
+    position: absolute;
+    margin-top: -4.1%;
+    width: 380px;
+    font-size: 0em;
+}
+.col {
+    width: 100%;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.noflex {
+    display: unset !important;
+}
+.absolute {
+    position: absolute;
+    border:0
+}
+.nope {
+    display: unset !important;
 }
