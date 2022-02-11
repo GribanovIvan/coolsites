@@ -6,21 +6,21 @@
     max-width: 100%;
     top: 50%; /*for mobile*/
     left: 50%; /*for mobile*/
-    transform: translate(-50%, -50%) /*for mobile*/
+    transform: translate(-50%, -50%); /*for mobile*/
+    z-index: -99;
 }
 .darker {
     background-color: black;
-    width: 150%;
-    height: 150vh;
+    width: 100%;
+    height: 100vh;
     position: fixed;
     opacity: 0.8;
-    margin-top: -20vh;
-    margin-left: -20%;
+    z-index: -98;
 }
 .blocks {
     display: flex;
     justify-content: center;
-    margin-top: 30vh;
+    margin-top: 5vh;
     position: absolute;
     width: 100%;
     height: 40vh;
@@ -83,4 +83,39 @@
     position: absolute;
     object-fit: cover;
     z-index: 0;
+    border-radius: 30px;
+    display: none;
   }
+.block:hover video {
+    display: unset;
+}
+.azuki {
+    background: rgb(140,85,89);
+    background: linear-gradient(111deg, rgb(140,85,89) 30%, rgb(255,233,131) 65%, rgb(255,244,224) 80%);
+}
+.azuki:hover {
+    background-image: url(https://c.tenor.com/nl3EfKDcZ8EAAAAC/nekopara-azuki.gif);
+    background-position: center;
+    background-size: cover;
+}
+.cinnamon  {
+    background: rgb(190,175,213);
+    background: linear-gradient(111deg, rgb(190,175,213) 30%, rgb(99,199,222) 65%, rgb(255,241,223) 80%);
+}
+.cinnamon:hover {
+    background-image: url(https://thumbs.gfycat.com/UniformPossibleAfghanhound-size_restricted.gif);
+    background-size: cover;
+    background-position: center;
+}
+.bd {
+    margin-top: 50vh;
+}
+.maple:hover {
+    background-image: url(https://thumbs.gfycat.com/GoodnaturedPoorFunnelweaverspider-size_restricted.gif);
+    background-size: cover;
+    background-position: center;
+}
+.maple  {
+    background: rgb(250,204,150);
+    background: linear-gradient(111deg, rgb(250,204,150) 30%, rgb(160,63,85) 65%, rgb(255,242,224) 80%);
+}

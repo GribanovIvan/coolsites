@@ -36,3 +36,4 @@ document.getElementById("rm2").remove()
 hidden.style.display = 'block'
 element.classList.add("calcs-s");
 }
+if(!document.getElementById("video").canPlayType('video/mp4; codecs="avc1.42E01E"')){document.getElementById("video").innerHTML='<source src="../site29/n.webm" type="video/webm">'}
