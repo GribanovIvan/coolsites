@@ -10,7 +10,7 @@ let num=1
 let data = Array();
 enter.onclick = function() {
     let temp=num // any unique variable
-    document.getElementById("input-id").value = num + '. ' + document.getElementById("input-id").value
+    document.getElementById("input-id").value = document.getElementById("input-id").value
     msg=msg + '<li id=li' + temp + '>' + document.getElementById("input-id").value + '<button onclick=del(' + temp + ')>del</button></li>'
     data[temp]=document.getElementById("input-id").value
     num++
@@ -43,6 +43,7 @@ function add (n) {
     let fakenum=child.attributes.id.nodeValue.substr(2)
     child.innerHTML=data[fakenum] + '<button onclick="del(' + fakenum + ')">del</button></li>'
     parent.appendChild(child)
+    msg = text.innerHTML
 }
 // ffmpeg -i 13.\ Русское\ поле\ экспериментов.m4a -ss 429.5 -c opus -strict -2 -t 6.8 nado3.opus
 // ffmpeg -i 13.\ Русское\ поле\ экспериментов.m4a -ss 425.9 -c opus -strict -2 -t 3.2 nado2.opus
