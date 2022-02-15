@@ -139,9 +139,9 @@ button {
     line-height: 0;
     background-color: rgba(0,0,0,0);
     border: none;
-    background-image: url(config%button;normal.png);
+    background-image: url(button-normal.png);
     background-position: center;
-    height: 13%;
+    height: 12%;
     width: 15%;
     background-size: 100%;
     cursor: pointer;
@@ -151,11 +151,11 @@ button {
     margin-top: 2vh;
 }
 button:hover {
-    background-image: url(config%button;over.png);
+    background-image: url(button-over.png);
     color:#cc6644
 }
 button:active {
-    background-image: url(config%button;on.png);
+    background-image: url(button-on.png);
     color:#ffbb11
 }
 * {font-family: 'GenJyuuGothicX-Bold'}

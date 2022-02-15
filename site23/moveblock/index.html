@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="../../site17/style.css">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="yeses">
-        <div class="ultcube">
+        <div class="ultcube" id="ultcube">
         <div class="gridnine">
             <button onclick="hup()">+h</button>
             <button onclick="up()">↑</button>
@@ -25,7 +25,17 @@
         </div>
         </div>
         </div>
-        <button class="big" onclick="stepe()">Ввести шаг (px)</button>
-        <script type="text/javascript" src="../main.js"></script>
+        <div class="panel">
+        <div class="uppercont"><div class="upper">Управление блоком</div></div>
+        <div class="grid">
+        <input type="number" inputmode="decimal" placeholder="Ширина" min="200" max="600" id="cwi">
+        <div class="blank"></div>
+        <input type="number" inputmode="decimal" placeholder="Высота" min="100" max="400" id="chi">
+        <div class="blank"></div>
+        <input id="sh" type="color">
+        <button id="use">Задать!</button>
+        </div>
+        <button onclick="stepe()">Ввести шаг (px)</button></div>
+        <script type="text/javascript" src="main.js"></script>
     </body>
 </html>
