@@ -138,7 +138,7 @@ height: 50%;
     height: 32vh;
 }
 .small .larges {
-    height: 90%;
+    height: 80%;
 }
 span {
     color:darkcyan;
@@ -221,4 +221,10 @@ span {
 .backs * {
     width: 95%;
     height: 95%;
+}
+.smalltop {
+    margin-top: 40px !important;
+}
+.mt3h .larges {
+    height: 29%;
 }

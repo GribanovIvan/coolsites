@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../site17/style.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="yeses">
@@ -28,12 +29,13 @@
         <div class="panel">
         <div class="uppercont"><div class="upper">Управление блоком</div></div>
         <div class="grid">
-        <input type="number" inputmode="decimal" placeholder="Ширина" min="200" max="600" id="cwi">
+        <input type="number" inputmode="decimal" placeholder="Ширина" min="200" max="600" step=20 id="cwi">
         <div class="blank"></div>
-        <input type="number" inputmode="decimal" placeholder="Высота" min="100" max="400" id="chi">
+        <input type="number" inputmode="decimal" placeholder="Высота" min="100" max="400" step=20 id="chi">
         <div class="blank"></div>
         <input id="sh" type="color">
         <button id="use">Задать!</button>
+        <button id="clear">Очистить!</button>
         </div>
         <button onclick="stepe()">Ввести шаг (px)</button></div>
         <script type="text/javascript" src="main.js"></script>

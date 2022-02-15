@@ -1,8 +1,8 @@
 let cube=document.querySelector('.ultcube')
 let martop=0
 let marleft=0
-let cw=200
-let ch=200
+// let cw=200
+// let ch=200
 let step=10
 function down() {
 martop += step
@@ -84,17 +84,31 @@ function stepe() {
 }
 use.onclick = function() {
     let broken = 0
-    if (ch=document.getElementById('chi').value < 100) {alert('ch must be >= 100');let broken=1}
-    if (ch=document.getElementById('cwi').value < 200) {alert('cw must be >= 200');let broken=1}
+    if (ch=document.getElementById('chi').value < 100) {alert('ch must be >= 100');broken=1}
+    if (ch=document.getElementById('cwi').value < 200) {alert('cw must be >= 200');broken=1}
+    if (ch=document.getElementById('chi').value > 400) {alert('ch must be <= 400');broken=1}
+    if (ch=document.getElementById('cwi').value > 600) {alert('cw must be <= 600');broken=1}
     if (broken != 1){
     cube.style.display='block'
-    document.getElementById('use').innerHTML='Изменить!'
+    // document.getElementById('use').innerHTML='Изменить!'
     cube.style.marginLeft='unset'
     cube.style.marginTop='unset'
-    ch=document.getElementById('chi').value
+    ch=+document.getElementById('chi').value
     cube.style.height= ch + "px"
-    cw=document.getElementById('cwi').value
+    cw=+document.getElementById('cwi').value
     cube.style.width= cw + "px"
     cube.style.background=document.getElementById('sh').value
+    document.getElementById('use').style.display='none'
 }
+else {
+alert('Попробуйте ещё раз!')
+}
+document.getElementById('chi').value=''
+document.getElementById('cwi').value=''
+}
+clear.onclick = function() {
+    document.getElementById('chi').value=''
+    document.getElementById('cwi').value=''
+    cube.style.display='none'
+    document.getElementById('use').style.display='block'
 }
