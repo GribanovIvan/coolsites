@@ -30,7 +30,7 @@
     height: 100%;
     border-radius: 30px;
     transition: all 500ms;
-    cursor: pointer;
+    /* cursor: pointer; */
     display: flex;
     justify-content: center;
     margin-left: 2%;
@@ -42,7 +42,7 @@
     margin-top: -2vh;
     transition: all 500ms;
 }
-.chocola {
+#chocola {
     background: rgb(121,97,106);
     background: linear-gradient(111deg, rgba(121,97,106,1) 30%, rgba(254,179,191,1) 65%, rgba(255,204,207,1) 80%); 
 }
@@ -58,7 +58,7 @@
     margin-top: -2.5vh;
     display: none;
 }
-.chocola:hover {
+#chocola:hover {
     background-image: url(https://i.imgur.com/8RuIeVC.gif);
     background-position: center;
     background-size: cover;
@@ -118,4 +118,71 @@
 .maple  {
     background: rgb(250,204,150);
     background: linear-gradient(111deg, rgb(250,204,150) 30%, rgb(160,63,85) 65%, rgb(255,242,224) 80%);
+}
+.info {
+    display:none;
+    position: absolute;
+    width: 80%;
+    height: 90vh;
+    margin-left: 10%;
+    margin-top: 5vh;
+    z-index: 2;
+    border-radius: 50px;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'GenJyuuGothicX-Bold';
+    src:url('GenJyuuGothicX-Bold.ttf')  format('truetype')
+  }
+button {
+    font-size: large;
+    line-height: 0;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    background-image: url(config%button;normal.png);
+    background-position: center;
+    height: 13%;
+    width: 15%;
+    background-size: 100%;
+    cursor: pointer;
+    color: #772200;
+    text-transform:uppercase;
+    display: block;
+    margin-top: 2vh;
+}
+button:hover {
+    background-image: url(config%button;over.png);
+    color:#cc6644
+}
+button:active {
+    background-image: url(config%button;on.png);
+    color:#ffbb11
+}
+* {font-family: 'GenJyuuGothicX-Bold'}
+.mars {
+    margin-left: 1vh;
+}
+#chocola-info {
+    background-image: url(https://cdn.donmai.us/original/27/00/__chocola_nekopara_drawn_by_sayori_neko_works__2700e4cdce1711e23a40f030e6df9d20.jpg); */
+    background-image: url(chocola.png);
+}
+body {
+    background-image: url(https://cdn.donmai.us/original/28/c3/__chocola_vanilla_coconut_cinnamon_maple_and_1_more_nekopara_drawn_by_sayori_neko_works__28c3ca23672a6ec9fbdd9c5b0f55fb12.jpg);
+    background-size: cover;
+    background-position: 0 -25px;
+}
+#maple-info {
+    background-image: url(https://cdn.donmai.us/original/c8/cd/__maple_nekopara_drawn_by_sayori_neko_works__c8cdf623f67532ad2129eb2cca6f1e9f.jpg);
+}
+#cinnamon-info {
+    background-image: url(https://cdn.donmai.us/original/44/59/__cinnamon_nekopara_drawn_by_sayori_neko_works__44596075c50565567fb04d02a25a174f.jpg);
+}
+#vanilla-info {
+    background-image: url(https://cdn.donmai.us/original/74/9b/__vanilla_nekopara_drawn_by_sayori_neko_works__749b6058bd100a1421ff9f256c16a58e.jpg);
+}
+#azuki-info {
+    background-image: url(https://cdn.donmai.us/original/7c/57/__azuki_nekopara_drawn_by_sayori_neko_works__7c5759c0d62db4c870ac9d8c8b7a5d56.jpg);
+}
+#coconut-info {
+    background-image: url(https://cdn.donmai.us/original/63/de/__coconut_nekopara_drawn_by_sayori_neko_works__63de12f44e51027c85e96f135fd41eee.jpg);
 }
