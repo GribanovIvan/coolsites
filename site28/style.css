@@ -204,10 +204,13 @@ span {
     height: 29.5%;
 }
 .neko {
-    position: relative;
+   position: relative;
+   background-position-y: -8px;
+   background-size: cover;
+   background-repeat: no-repeat
 }
 .larges video {
-    width: 100%;
+    width: 100.15%;
     height: 100%;
     position: absolute;
     object-fit: cover;
