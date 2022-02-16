@@ -129,6 +129,7 @@
     z-index: 2;
     border-radius: 50px;
     background-size: cover;
+    transform: all 300ms;
 }
 @font-face {
     font-family: 'GenJyuuGothicX-Bold';
@@ -141,14 +142,14 @@ button {
     border: none;
     background-image: url(button-normal.png);
     background-position: center;
-    height: 12%;
+    height: 13%;
     width: 15%;
     background-size: 100%;
     cursor: pointer;
     color: #772200;
     text-transform:uppercase;
     display: block;
-    margin-top: 2vh;
+    background-repeat: no-repeat
 }
 button:hover {
     background-image: url(button-over.png);
@@ -186,3 +187,60 @@ body {
 #coconut-info {
     background-image: url(https://cdn.donmai.us/original/63/de/__coconut_nekopara_drawn_by_sayori_neko_works__63de12f44e51027c85e96f135fd41eee.jpg);
 }
+.info img {
+    float:right;
+    cursor: inherit;
+    height: 100%;
+    transform: scaleX(-1);
+}
+.buttons {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+ul {
+    /* position: relative; */
+    z-index: 1;
+    font-size: x-large;
+    color:rgb(121,97,106);
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(254,179,191), 0 0 0.2em rgb(254,179,191)
+}
+.downer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end
+}
+#lang {
+    width: 25vh;
+    height: 15vh;
+    position: fixed;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg);
+    background-position: center;
+    background-size: cover;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    cursor: pointer;
+    color:black;
+    user-select: none;
+}
+#lang span {
+    color:#3e3960
+}
+#lang abc {
+    color:#dad5d4
+}
+#lang dd {
+    color:#9c2431
+}
+.ztop{
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    position: absolute;
+    z-index: 2;
+}
+qwe {color:white}
+rty {color:#d52b1e}

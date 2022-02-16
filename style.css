@@ -344,6 +344,32 @@ input:checked + .iwantjs .block{
 .mtopdva {
     margin-top: 5%;
 }
+.fixjs {
+width: 80%;
+height: 30vh;
+margin-left: -16.875%;
+margin-top: 80vh;
+background-color: #fbde3c;
+transition: all 1s;
+z-index: 9999;
+cursor: pointer;
+}
+.fixjs:hover {
+    animation: js 200ms normal forwards ease-in-out;
+}
+@keyframes js {
+    from {
+margin-left: -16.875%;
+margin-top: 80vh;
+border-radius: 49% 49% 49% 0% / 49% 49% 49% 0% 
+    }
+  
+    to {
+        margin-left: -5.625%;
+        margin-top: 75vh;
+        border-radius: 49% 49% 49% 0% / 30% 49% 49% 0% 
+    }
+  }
 }
 @supports (-moz-appearance:none) {
     input {

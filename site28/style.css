@@ -1,7 +1,7 @@
 * {
     margin: 0
 }
-.settings {
+#settings {
     height: 40px;
     width: 100px;
     display: flex;
@@ -14,6 +14,7 @@
     cursor: pointer;
     z-index: 99;
     margin-left: 90%; /*chrome fix*/
+    user-select: none;
 }
 .fakesmall {opacity: 0; font-size: xx-small;}
 .header {
@@ -156,9 +157,6 @@ span {
     color:orange;
     background-image: linear-gradient(rgba(15, 72, 194, 0.9),rgba(0,0,0,.0)), url(http://mini.s-shot.ru/640x640/640/?https://gribanovivan.github.io/coolsites/site24);
 }
-.mt3h {
-    margin-top: 3vh;
-}
 .s25 {
     background-image: url(http://mini.s-shot.ru/800x800/800/?https://gribanovivan.github.io/coolsites/site25);
 }
@@ -200,9 +198,10 @@ span {
 }
 .big {
     height: 92vh;
+    margin-top: 3vh;
 }
 .big .larges {
-    height: 31%;
+    height: 29.5%;
 }
 .neko {
     position: relative;
@@ -225,6 +224,57 @@ span {
 .smalltop {
     margin-top: 40px !important;
 }
-.mt3h .larges {
+.smalltopsec {
+    margin-top: 40px !important;
+}
+.neko {
+    background-image: url(https://cdn.donmai.us/original/28/c3/__chocola_vanilla_coconut_cinnamon_maple_and_1_more_nekopara_drawn_by_sayori_neko_works__28c3ca23672a6ec9fbdd9c5b0f55fb12.jpg);
+}
+.col {
+    height: 15%;
+}
+#ok {
+    font-size: xxx-large;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+@media screen and (max-width: 1560px) {
+    h1 {
+        font-size: x-large;
+    }
+}
+@media screen and (max-width: 666px) {
+.panel {
+    width: 100%;
+}
+h1 {
+    font-size: x-large !important;
+}
+.larges .larges {
+    width: 90%;
+    margin-left: 5%;
+}
+.small {
+    height: 100vh;
+}
+.smalltopsec {
+    margin-top: 3% !important;
+}
+.small .larges {
     height: 29%;
+}
+.big {
+    height: 230vh;
+}
+.big .larges {
+    height: 13%;
+    margin-top: 3%;
+}
+#settings {
+    background-color: rgba(240, 248, 255, 0.5);
+    margin-top: 10vh;
+}
+.backs .neko {display: none;}
+.mobdel {display: none;}
+.backs {height:30%}
+.col {height: 13%;}
 }

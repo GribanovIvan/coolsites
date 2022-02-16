@@ -1,19 +1,29 @@
 const panel=document.querySelector('.panel')
+let mobfix=899
+let mobfix4=10
+let mobfix3=1000
+let mobfix2=94.5
+if (window.screen.width < 666){
+  mobfix=499
+  mobfix2=96.5
+  mobfix3=700
+  mobfix4=4
+}
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 settings.onclick = async function() {
-    for (let i = 1000; i > 899; i--) {
+    for (let i = mobfix3; i > mobfix; i--) {
         await sleep(1);
      panel.style.marginLeft= (i + i - 1000) / 10 + "%"
-     panel.style.opacity= 100 - i/ 200 - 94.5
+     panel.style.opacity= 100 - i/ 200 - mobfix2
    }
 }
 X.onclick = async function() {
-    for (let i = 900; i < 1001; i++) {
+    for (let i = mobfix + 1; i < mobfix3 + 1; i++) {
         await sleep(1);
-     panel.style.marginLeft= (i + i - 1000) / 10 + "%"
-     panel.style.opacity= 100 - i/ 200 - 94.5
+     panel.style.marginLeft= (i + i - 1000) / mobfix4 + "%"
+     panel.style.opacity= 100 - i/ 200 - mobfix2
    }
 }
 function wallpaper(w) {
