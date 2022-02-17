@@ -22,7 +22,7 @@ body {background: unset;}
 i {
     font-size: 6em;
 }
-hr {
+.inner hr {
     width: 90%;
 }
 .smaller {
@@ -38,6 +38,24 @@ h1 {
 span {
     opacity: 0.6;
 }
+.inner .inner {
+    width: 95%;
+    box-shadow: none;
+}
+.fleh {display: flex;justify-content: center;align-items: center;}
+.flex hr{width: 100%;}
+.fleh .inner * {text-align: left !important;}
+.fleh .inner hr{width: 100%}
+button {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    width: unset;
+    border-radius: 0;
+    height: 10vh;
+    width: 20vh;
+    font-size: x-large;
+    background-color: #B5D6CB;
+}
 @media screen and (max-height: 910px) {
     h1 {font-size: small;}
 }
@@ -51,3 +69,6 @@ span {
 .downer {
     margin-top: 1vh;
 }}
+@media screen and (max-height: 768px) {
+    button {font-size: large;}
+}
