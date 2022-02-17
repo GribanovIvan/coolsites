@@ -1,0 +1,33 @@
+.higer {font-family: Montserrat;}
+.smaller {font-size: xx-large;}
+.in {margin-left: 15%;margin-top:20px;}
+li {
+    list-style: none;
+    display: flex;align-items: center;
+    font-size: 3.3vh;
+  }
+  li::before {
+    content: '';
+    display: inline-block;
+    height: 100px;
+    width: 6px; 
+    background-image: url(line.png);
+    top:50px;
+  }
+li:hover::before {
+    background-image: url(https://static.wikia.nocookie.net/fandomium/images/b/bc/Obama_sphere.gif/revision/latest/scale-to-width-down/220?cb=20191122171939);
+    width: 220px;
+    height: 220px;
+    margin-left: -220px;
+    margin-top: -110px;
+}
+p1 {margin-left: 15px;font-family: Montserrat;font-family: 'Source Code Pro', monospace;color:brown;margin-top: 2px;}
+p1 span {color:black;font-family: Montserrat-f;}
+h3 {color:black;font-family: Montserrat;font-weight: lighter;margin-left: 0.25em;opacity: 0.6;}
+@media screen and (max-height: 800px) {
+    .higer{font-size: xx-large;}
+    .smaller{font-size: large;}
+    .in {
+        margin-left: 5%;
+    }
+}
