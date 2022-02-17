@@ -1,5 +1,5 @@
 body {background: unset;}
-span {color:aqua}
+.higer span {color:aqua}
 .grid {
     display: grid;
     grid-template-columns: 23fr 2fr 63fr;
@@ -20,7 +20,7 @@ span {color:aqua}
     border:unset
 }
 i {
-    font-size: 5em;
+    font-size: 6em;
 }
 hr {
     width: 90%;
@@ -28,3 +28,26 @@ hr {
 .smaller {
     font-size: x-large;
 }
+.downer {
+    margin-top: 2vh;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 15px;
+}
+span {
+    opacity: 0.6;
+}
+@media screen and (max-height: 910px) {
+    h1 {font-size: small;}
+}
+@media screen and (max-height: 870px) {
+    h1 {font-size: x-small;}
+}
+@media screen and (max-height: 820px) {
+    i {font-size: 3em;}
+}
+@media screen and (max-height: 705px) {
+.downer {
+    margin-top: 1vh;
+}}
