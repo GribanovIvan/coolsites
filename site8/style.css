@@ -6,7 +6,7 @@ body {
     height: 150px;
     border-radius: 50%;
     background-color: #b3d5e8;
-    font-size: 120px;
+    font-size: 6.5em;
     text-align: center;
 }
 b {
@@ -29,9 +29,6 @@ p b {
 h1 {
     font-size: x-large;
 }
-/* a {
-    text-decoration: none;
-} */
 .small {
     font-size: normal;
     font-weight: lighter;

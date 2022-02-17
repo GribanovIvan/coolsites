@@ -1,0 +1,30 @@
+body {background: unset;}
+span {color:aqua}
+.grid {
+    display: grid;
+    grid-template-columns: 23fr 2fr 63fr;
+    grid-template-rows: 70vh;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5vh;
+}
+.inner {
+    box-shadow: 0px 0px 20px 10px rgba(34, 60, 80, 0.2);
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+}
+.inner:hover {
+    background: unset;
+    color:unset;
+    border:unset
+}
+i {
+    font-size: 5em;
+}
+hr {
+    width: 90%;
+}
+.smaller {
+    font-size: x-large;
+}

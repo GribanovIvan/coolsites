@@ -1,0 +1,32 @@
+.higer {
+    font-family: 'Montserrat', sans-serif;
+}
+.grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15vh 15vh 15vh 15vh 15vh 15vh;
+    width: 98%;
+    margin-left: 1%;
+}
+i {
+    font-size: 5em;
+}
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+body {background: linear-gradient(90deg,rgb(152,151,165),rgb(202,246,255));}
+.inner:hover {
+    background: linear-gradient(90deg,rgb(152,151,165),rgb(202,246,255));
+    border: 3px white solid;
+    color:white
+}
+* {
+    transition: border 100ms;
+}
+.phy {
+    grid-row: 5/7;
+    grid-column: 6/7;
+}

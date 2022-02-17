@@ -12,7 +12,7 @@ function listen(sound) {
 }
 function exit() {
     document.querySelector('.block').style.cursor='pointer'
-    document.getElementById('vanilla').style.cursor='pointer'
+    document.querySelector('.vanilla').style.cursor='pointer'
 }
 function enter() {
     document.querySelector('.block').style.cursor='unset'
