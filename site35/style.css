@@ -1,10 +1,18 @@
-#header {width: 100%;height: 20vh;background-color: #137e57;display: flex;justify-content: space-between;font-size: 7em;align-items: center}
+#header {width: 100%;height: 20vh;background-color: #137e57;display: flex;justify-content: space-between;font-size: 12vh;align-items: center}
 * {margin:0;font-family: 'Montserrat', sans-serif;color: white}
-#day {width: 100%;height: 15vh;background-color: #aeaeae;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;font-size: 6em;}
+#day {width: 100%;height: 15vh;background-color: #aeaeae;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;font-size: 10vh;}
 #day p {display: flex;align-items:center;justify-content: center;}
-#dates p {display: flex;align-items:center;justify-content: center;}
+#dates p {display: flex;align-items:center;justify-content: center}
 #up {display: block;}
 #m{text-transform: uppercase;}
-#verbose{font-size: xx-large;text-align: center;}
+#verbose{font-size:3.4vh;text-align: center;}
 #header p {cursor: pointer;}
-#dates {width: 100%;height: 65vh;background-color: #26282b;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;grid-column: 13vh;font-size: 5em;text-align: center;}
+#dates {width: 100%;height: 65vh;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;text-align: center;}
+p:active {
+    font-size: 150%;
+}
+p{transition: all 100ms;}
+#day p:active {
+    font-size: 100%;
+}
+body {background-color: #26282b}
