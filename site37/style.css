@@ -1,0 +1,3 @@
+#center {display:flex;justify-content: center;margin-top: 10%;}
+#many {display: inline-block;width: 20%;min-height: 10vh;border: 5px black solid;margin-left: 40%;margin-top: 10%;}
+#add1 {height: 20vh;width: 30vh;font-size: 5em;}
