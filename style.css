@@ -223,6 +223,11 @@ font-size: 0;}
 .neko{background-image: url(http://mini.s-shot.ru/1600x905/1080/?https://gribanovivan.github.io/coolsites/site16);background-position: center; background-size: cover;background-repeat: no-repeat;}
 .star{background-image: url(http://mini.s-shot.ru/1280x768/1280/?https://gribanovivan.github.io/coolsites/site18)}
 .valenta{background-image: url(http://mini.s-shot.ru/1440x840/1440/?https://gribanovivan.github.io/coolsites/site19)}
+.s30{background-image: url(http://mini.s-shot.ru/1600x900/1600/?https://gribanovivan.github.io/coolsites/site30), linear-gradient(90deg,rgb(152,151,165),rgb(202,246,255)) !important;background-size: contain;background-repeat: no-repeat;}
+.s31{background-image: url(http://mini.s-shot.ru/1600x900/1600/?https://gribanovivan.github.io/coolsites/site31)}
+.s32{background-image: url(http://mini.s-shot.ru/1280x720/1280/?https://gribanovivan.github.io/coolsites/site32)}
+.s33{background-image: url(http://mini.s-shot.ru/516x589/516/?https://gribanovivan.github.io/coolsites/site33), linear-gradient(white,white) !important;background-position: left;background-size: contain;background-repeat: no-repeat;}
+.s34{background-image: url(http://mini.s-shot.ru/816x716/816/?https://gribanovivan.github.io/coolsites/site34), linear-gradient(cyan,cyan);background-size: contain;background-repeat: no-repeat;}
 .centred {
     position: relative;
     text-align: center;

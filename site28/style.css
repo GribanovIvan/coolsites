@@ -135,10 +135,10 @@ height: 50%;
     display: none
 }
 .small {
-    height: 32vh;
+    height: 62vh;
 }
 .small .larges {
-    height: 80%;
+    height: 43%;
 }
 span {
     color:darkcyan;
@@ -196,11 +196,11 @@ span {
     display: unset !important;
 }
 .big {
-    height: 92vh;
+    height: 122vh;
     margin-top: 3vh;
 }
 .big .larges {
-    height: 29.5%;
+    height: 22.5%;
 }
 .neko {
    position: relative;
@@ -262,7 +262,7 @@ h1 {
     margin-top: 3% !important;
 }
 .small .larges {
-    height: 29%;
+    height: 45%;
 }
 .big {
     height: 230vh;
@@ -285,3 +285,7 @@ h1 {
 .site * {position: unset !important;font-weight: unset !important}
 .s23 {color:deeppink !important}
 .form {background-image: url(http://mini.s-shot.ru/1280x768/1280/?https://gribanovivan.github.io/coolsites/site7);background-size: cover;}
+iframe {width: 100%;border-radius: 15px;}
+.calendar p {margin-left: -15%;}
+.l {text-align: left;margin-left: 2%;margin-top: -15%;}
+img{cursor: pointer;}
